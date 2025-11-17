@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Massyle DENDENE
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Massyle
+last_name: DENDENE
 
 # Pronouns (optional)
-pronouns: he/him
+#pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🗿
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,150 +23,190 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: CREST
+    url: https://crest.science/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:massyle.dendene@ensae.fr'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  #- icon: brands/x
+  #  url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/massyle-d
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/massyle-dendene/
+  #- icon: academicons/google-scholar
+  #  url: https://scholar.google.com/citations?user=alexjohnson
+  #- icon: academicons/orcid
+  #  url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Stochastic control
+  - Hawkes process
+  - Bayesian learning
+  - Finance
+  - Cyber risk
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD in Applied Mathematics
+    institution: ENSAE
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2025-11-17
+    date_end: 2028-11-17
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+      Thesis on Stochastic control of intensity of Hawkes process with Bayesian learning. Supervised by Roxana Dumitrescu, Nicolas Baradel and Caroline Hillairet.
+    #button:
+    #  text: 'Read Thesis'
+    #  url: ''
+  - area: MS Actuarial Sciences
+    institution: ENSAE
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+    date_start: 2023-09-01
+    date_end: 2025-10-31
     summary: |
       GPA: 4.0/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
+      Specialized in actuarial sciences.
 
-      Minored in Mathematics. President of AI Club.
+  - area: MS Quantitative Finance
+    institution: Université Paris Cité
+    icon: ""
+    date_start: 2024-09-01
+    date_end: 2025-10-31
+    summary: |
+      Master program in mathematical finance.
+
+  - area: MS Engineering
+    institution: IMT Atlantique
+    icon: ""
+    date_start: 2021-09-01
+    date_end: 2023-08-31
+    summary: |
+      French engineering school (Major : Mathematical and Computational engineering).
+
+  - area: BS Mathematics & Economy
+    institution: Université de Bretagne Occidentale (UBO)
+    icon: ""
+    date_start: 2022-09-01
+    date_end: 2023-08-31
+    summary: |
+      Bachelor in Mathematics & Economy.
+
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Quantitative Research Intern
+    company_name: Exiom Partners
+    company_url: 'https://www.exiompartners.com/'
     icon: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2025-05-19
+    date_end: 2025-10-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Research topic: Pricing European options in an illiquid market — a subordinated jump–diffusion approach, with applications to life insurance and balance sheet management tools.
+
+
+
+
+  - position: Actuary Intern
+    company_name: AON Luxembourg
+    company_url: 'https://www.aon.com/luxembourg/default.jsp'
+    icon: ''
+    date_start: 2024-06-10
+    date_end: 2024-09-29
+    summary: |
+      - Reserving for non-life reinsurance captives
+
+
+  - position: Research Intern
+    company_name: Université Claude Bernard Lyon 1 (ISFA)
+    company_url: 'https://isfa.univ-lyon1.fr/'
+    icon: ''
+    date_start: 2023-04-07
+    date_end: 2023-08-25
+    summary: |
+      - AXA JRI (Joint Research Initiative) Project: Worked on longevity model selection and change detection during the COVID-19 era. Topics included rupture detection, model selection, and longevity risk.
+      - Hailstorm Insurance-Related Project: Created a map of France modeling hailstorm trajectories, incorporating data on hailstone size. Parameter modeling and map generation were performed using Python.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Python, R & Git
         description: ''
-        percent: 95
+        percent: 70
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
+      #- name: Machine Learning
+      #  description: ''
+      #  percent: 100
+      #  icon: chart-bar
+      #- name: Cloud Computing (AWS/GCP)
+      #  description: ''
+      #  percent: 85
+      #  icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Piano
         description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        percent: 150
+        icon: custom/piano
+      - name: Table Tennis
         description: ''
         percent: 70
-        icon: book-open
+        icon: custom/tt
+      - name: Blood donation
+        description: ''
+        percent: 46
+        icon: custom/blood
 
 languages:
+  - name: Kabyle
+    percent: 100
+  - name: French
+    percent: 100
   - name: English
     percent: 100
-  - name: Spanish
+  - name: German
     percent: 50
+  - name: Italian
+    percent: 2
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+#awards:
+#  - title: Best Paper Award
+#    url: https://neurips.cc/
+#    date: '2022-12-01'
+#    awarder: NeurIPS
+#    icon: hero/trophy
+#    summary: |
+#      Awarded for groundbreaking work on efficient training of large models.
+#  - title: AI Innovation Grant
+#    url: https://www.nsf.gov/
+#    date: '2021-06-15'
+#    awarder: National Science Foundation
+#    icon: hero/currency-dollar
+#    summary: |
+#      $500,000 grant for research in ethical AI development.
+#  - title: Outstanding PhD Thesis
+#    url: https://www.stanford.edu/
+#    date: '2019-06-30'
+#    awarder: Stanford University
+#    icon: hero/academic-cap
+#    summary: |
+#      Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I’m a PhD student at CREST (ENSAE, IP Paris) specializing in applied mathematics, with a strong interest in stochastic control, probability, and their applications to finance and insurance. I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at ENSAE and the M2MO program, I developed a particular interest in research topics related to stochastic processes, optimal decision-making under uncertainty, and model-based risk management.
+
+Outside of research, I enjoy playing the piano, practicing ping-pong, and exploring new ideas. I also like reading about the history of mathematics and sharing knowledge with others.
