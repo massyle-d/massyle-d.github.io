@@ -101,6 +101,17 @@ education:
 
 
 work:
+
+  #- position: Teaching Assistant
+  #  company_name: ENSAE
+  #  company_url: 'https://www.ensae.fr/'
+  #  icon: ''
+  #  date_start: 2026-01-01
+  #  date_end: 2028-12-31
+  #  summary: |
+  #    - Financial Mathematics (Master 1 level, 12h).
+  #    - Probability Theory (Bachelor 3 level, 30h).
+
   - position: Quantitative Research Intern
     company_name: Exiom Partners
     company_url: 'https://www.exiompartners.com/'
@@ -111,6 +122,7 @@ work:
       - Research topic: Pricing European options in an illiquid market — a subordinated jump–diffusion approach, with applications to life insurance and balance sheet management tools.
 
 
+  
 
 
   - position: Actuary Intern
