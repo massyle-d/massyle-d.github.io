@@ -221,4 +221,4 @@ languages:
 
 I’m a PhD student at CREST (ENSAE, IP Paris) specializing in applied mathematics, with a strong interest in stochastic control, probability, and their applications to finance and insurance. I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at ENSAE and the M2MO program, I developed a particular interest in research topics related to stochastic processes, optimal decision-making under uncertainty, and model-based risk management.
 
-Outside of research, I enjoy playing the piano, practicing ping-pong, and exploring new ideas. I also like reading about the history of mathematics and sharing knowledge with others.
+Outside of research, I enjoy playing the piano and practicing ping-pong. I also like reading about the history of mathematics and sharing knowledge with others.
