@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://massyle-d.github.io/sitemap.xml
