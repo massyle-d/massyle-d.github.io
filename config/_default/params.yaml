@@ -25,6 +25,8 @@ marketing:
   verification:
     google: ''
     baidu: ''
+    bing: ''
+    
 
 # Site header
 header:
