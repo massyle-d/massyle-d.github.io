@@ -5,18 +5,15 @@
 # Default language
 en:
   languageCode: en-us
-  title: 'Massyle DENDENE | Applied Mathematics Researcher'
   weight: 1
-  params:
-    description: 'Personal site of Massyle DENDENE, an applied mathematics PhD student at CREST (ENSAE/IP Paris) working on stochastic control, Hawkes processes, and quantitative finance.'
 
 fr:
   languageCode: fr-fr
   contentDir: content/fr
   weight: 2
-  title: 'Massyle DENDENE | Mathématiques appliquées'
+  title: Massyle DENDENE
   params:
-    description: 'Site personnel de Massyle DENDENE, doctorant en mathématiques appliquées au CREST (ENSAE/IP Paris) spécialisé en contrôle stochastique, processus de Hawkes et finance quantitative.'
+    description: 'Site personnel de Massyle DENDENE.'
   menu:
     main:
       - name: Biographie

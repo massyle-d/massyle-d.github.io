@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'Massyle DENDENE'
-    description: 'Personal website of Massyle DENDENE, applied mathematics PhD student at CREST (ENSAE, IP Paris) focusing on stochastic control, Hawkes processes, actuarial science, and quantitative finance.'
-    twitter: ''
+    org_name: ''
+    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    twitter: 'GetResearchDev'
   analytics:
     google_analytics: 'G-XKTQP9PQ4Z'
     baidu_tongji: ''
