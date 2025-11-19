@@ -1,7 +1,10 @@
----
 title: Recent & Upcoming Talks
 cms_exclude: true
 #url: talk
+draft: true
+_build:
+  render: never
+  list: never
 
 # View
 view: card
@@ -10,4 +13,12 @@ view: card
 image:
   caption: ''
   filename: ''
+
+cascade:
+  - target:
+      path: '{/events/*/**}'
+    draft: true
+    _build:
+      render: never
+      list: never
 ---
