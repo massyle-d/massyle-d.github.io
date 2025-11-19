@@ -17,7 +17,7 @@ marketing:
     description: 'Personal website of Massyle DENDENE, applied mathematics PhD student at CREST (ENSAE, IP Paris) focusing on stochastic control, Hawkes processes, actuarial science, and quantitative finance.'
     twitter: ''
   analytics:
-    google_analytics: 'G-XKTQP9PQ4Z'
+    google_analytics: "G-XKTQP9PQ4Z"
     baidu_tongji: ''
     plausible: ''
     fathom: ''
