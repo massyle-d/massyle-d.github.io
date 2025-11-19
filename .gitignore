@@ -8,6 +8,7 @@
 
 # Generated site output
 public/
+!public/sitemap.xml
 
 # Hugo resources (processed assets)
 resources/
