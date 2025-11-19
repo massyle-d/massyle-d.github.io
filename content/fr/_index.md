@@ -1,6 +1,14 @@
----
 # Laisser le titre vide pour réutiliser celui du site
-title: ''
+title: 'Massyle DENDENE | Doctorant en mathématiques appliquées'
+summary: 'Massyle DENDENE est doctorant au CREST (ENSAE/IP Paris) avec une expertise en contrôle stochastique, processus de Hawkes, finance quantitative et risque cyber.'
+description: 'Découvrez les travaux et projets de Massyle DENDENE, chercheur en mathématiques appliquées focalisé sur le contrôle optimal de processus de Hawkes avec apprentissage bayésien au service de la finance et de l’assurance.'
+keywords:
+  - Massyle DENDENE
+  - Mathématiques appliquées
+  - Contrôle stochastique
+  - Processus de Hawkes
+  - Finance quantitative
+  - Risque cyber
 date: 2022-10-24
 type: landing
 

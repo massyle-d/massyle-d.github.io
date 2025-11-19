@@ -1,6 +1,14 @@
----
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Massyle DENDENE | Applied Mathematics PhD Student'
+summary: 'Massyle DENDENE is a CREST (ENSAE/IP Paris) PhD student specializing in stochastic control, Hawkes processes, cyber risk, and quantitative finance.'
+description: 'Discover the work of Massyle DENDENE, an applied mathematics researcher focused on stochastic control of Hawkes processes with Bayesian learning, actuarial science, and financial risk modeling.'
+keywords:
+  - Massyle DENDENE
+  - Applied mathematics researcher
+  - Stochastic control
+  - Hawkes processes
+  - Quantitative finance
+  - Cyber risk
 date: 2022-10-24
 type: landing
 
