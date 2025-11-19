@@ -17,5 +17,5 @@ sections:
       title: 'Academic Year 2025–2026'
       text: |-
         - **Probability Theory (1A ENSAE, L3, 28.5h)** — Core undergraduate course taught by [Victor-Emmanuel Brunel](https://vebrunel.fr/).
-        - **Financial Mathematics (2A ENSAE, M1)** — Master-level course in taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
+        - **Financial Mathematics (2A ENSAE, M1, 12h)** — Master-level course in taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
 ---
