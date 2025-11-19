@@ -1,18 +1,11 @@
+---
 title: Courses
 summary: My courses
 type: landing
-draft: true
-_build:
-  render: never
-  list: never
 
 cascade:
   - target:
       path: '{/courses/*/**}'
-    draft: true
-    _build:
-      render: never
-      list: never
     type: docs
     params:
       show_breadcrumb: true
