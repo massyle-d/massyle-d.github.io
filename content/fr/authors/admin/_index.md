@@ -19,12 +19,16 @@ profiles:
     url: https://github.com/massyle-d
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/massyle-dendene/
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0006-0118-3728
 interests:
   - Contrôle stochastique
+  - EDP
+  - Solutions de viscosité
   - Processus de Hawkes
   - Apprentissage bayésien
-  - Finance
   - Risque cyber
+  - Finance
 education:
   - area: Doctorat en mathématiques appliquées
     institution: ENSAE

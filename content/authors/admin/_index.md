@@ -44,15 +44,17 @@ profiles:
     url: https://www.linkedin.com/in/massyle-dendene/
   #- icon: academicons/google-scholar
   #  url: https://scholar.google.com/citations?user=alexjohnson
-  #- icon: academicons/orcid
-  #  url: https://orcid.org/0000-0002-1825-0097
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0006-0118-3728
 
 interests:
   - Stochastic control
+  - PDE
+  - Viscosity solutions
   - Hawkes process
   - Bayesian learning
-  - Finance
   - Cyber risk
+  - Finance
 
 education:
   - area: PhD in Applied Mathematics
