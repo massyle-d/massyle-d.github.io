@@ -48,13 +48,13 @@ profiles:
     url: https://orcid.org/0009-0006-0118-3728
 
 interests:
-  - Stochastic control
-  - PDE
-  - Viscosity solutions
-  - Hawkes process
-  - Bayesian learning
-  - Cyber risk
-  - Finance
+  - "[Stochastic control](https://en.wikipedia.org/wiki/Stochastic_control)"
+  - "[Partial differential equations](https://en.wikipedia.org/wiki/Partial_differential_equation)"
+  - "[Viscosity solutions](https://en.wikipedia.org/wiki/Viscosity_solution)"
+  - "[Hawkes process](https://en.wikipedia.org/wiki/Hawkes_process)"
+  - "[Bayesian learning](https://en.wikipedia.org/wiki/Bayesian_inference)"
+  - "Cyber risk"
+  - "[Quantitative finance](https://en.wikipedia.org/wiki/Quantitative_finance)"
 
 education:
   - area: PhD in Applied Mathematics

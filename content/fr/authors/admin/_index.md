@@ -22,13 +22,13 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0006-0118-3728
 interests:
-  - Contrôle stochastique
-  - EDP
-  - Solutions de viscosité
-  - Processus de Hawkes
-  - Apprentissage bayésien
-  - Risque cyber
-  - Finance
+  - "Contrôle stochastique"
+  - "[Équations aux dérivées partielles](https://fr.wikipedia.org/wiki/%C3%89quation_aux_d%C3%A9riv%C3%A9es_partielles)"
+  - "Solutions de viscosité"
+  - "[Processus de Hawkes](https://fr.wikipedia.org/wiki/Processus_de_Hawkes)"
+  - "[Apprentissage bayésien](https://fr.wikipedia.org/wiki/Inf%C3%A9rence_bay%C3%A9sienne)"
+  - "Risque cyber"
+  - "[Finance quantitative](https://fr.wikipedia.org/wiki/Finance_quantitative)"
 education:
   - area: Doctorat en mathématiques appliquées
     institution: ENSAE
