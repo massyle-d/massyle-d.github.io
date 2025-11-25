@@ -19,6 +19,8 @@ profiles:
     url: https://github.com/massyle-d
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/massyle-dendene/
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Massyle-Dendene?ev=hdr_xprf
   - icon: academicons/orcid
     url: https://orcid.org/0009-0006-0118-3728
 interests:

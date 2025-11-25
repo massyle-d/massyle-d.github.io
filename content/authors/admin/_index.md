@@ -44,6 +44,8 @@ profiles:
     url: https://www.linkedin.com/in/massyle-dendene/
   #- icon: academicons/google-scholar
   #  url: https://scholar.google.com/citations?user=alexjohnson
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Massyle-Dendene?ev=hdr_xprf
   - icon: academicons/orcid
     url: https://orcid.org/0009-0006-0118-3728
 
