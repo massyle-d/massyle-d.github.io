@@ -23,18 +23,20 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student
+role: PhD Student, Applied Mathematics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: CREST
+  - name: CMAP (École Polytechnique)
+    url: https://cmap.ip-paris.fr/recherche/probabilite/mathsfi
+  - name: CREST (ENSAE)
     url: https://crest.science/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:massyle.dendene@ensae.fr'
+    url: 'mailto:massyle.dendene@polytechnique.edu'
     label: E-mail Me
   #- icon: brands/x
   #  url: https://twitter.com/AlexAIResearch
@@ -60,7 +62,7 @@ interests:
 
 education:
   - area: PhD in Applied Mathematics
-    institution: ENSAE
+    institution: Institut Polytechnique de Paris — CMAP & CREST
     icon: ""
     date_start: 2025-11-17
     date_end: 2028-11-17
@@ -85,7 +87,7 @@ education:
     date_start: 2024-09-01
     date_end: 2025-10-31
     summary: |
-      Master program in mathematical finance.
+      Master program in mathematical finance (Ex DEA Laure Elie)
 
   - area: MS Engineering
     institution: IMT Atlantique
@@ -223,6 +225,6 @@ languages:
 #      Recognized for contributions to scaling laws in deep learning.
 ---
 
-I’m a PhD student at CREST (ENSAE, IP Paris) specializing in applied mathematics, with a strong interest in stochastic control, probability, and their applications to finance and insurance. I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at ENSAE and the M2MO program, I developed a particular interest in research topics related to stochastic processes, optimal decision-making under uncertainty, and model-based risk management.
+I’m a PhD student at Institut Polytechnique de Paris, working jointly at CMAP (École Polytechnique) and CREST (ENSAE). My research focuses on stochastic control, probability, and their applications to finance and insurance. I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at ENSAE and the M2MO program, I developed a particular interest in stochastic processes, optimal decision-making under uncertainty, and model-based risk management.
 
 Outside of research, I enjoy playing the piano and practicing ping-pong. I also like reading about the history of mathematics and sharing knowledge with others.

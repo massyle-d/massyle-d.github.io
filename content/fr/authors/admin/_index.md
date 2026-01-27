@@ -9,11 +9,13 @@ superuser: true
 highlight_name: true
 role: Doctorant en mathématiques appliquées
 organizations:
-  - name: CREST
+  - name: CMAP (École Polytechnique)
+    url: https://cmap.ip-paris.fr/recherche/probabilite/mathsfi
+  - name: CREST (ENSAE)
     url: https://crest.science/
 profiles:
   - icon: at-symbol
-    url: 'mailto:massyle.dendene@ensae.fr'
+    url: 'mailto:massyle.dendene@polytechnique.edu'
     label: "M'écrire"
   - icon: brands/github
     url: https://github.com/massyle-d
@@ -33,13 +35,13 @@ interests:
   - "[Finance quantitative](https://fr.wikipedia.org/wiki/Finance_quantitative)"
 education:
   - area: Doctorat en mathématiques appliquées
-    institution: ENSAE
+    institution: Institut Polytechnique de Paris — CMAP & CREST
     icon: ""
     date_start: 2025-11-17
     date_end: 2028-11-17
     summary: |
       Thèse sur le contrôle stochastique de l'intensité d'un processus de Hawkes avec apprentissage bayésien. Encadré par Roxana Dumitrescu, Nicolas Baradel et Caroline Hillairet.
-  - area: MSc Actuariat
+  - area: Diplôme d'ingénieur
     institution: ENSAE
     icon: ""
     date_start: 2023-09-01
@@ -49,13 +51,13 @@ education:
 
       Spécialisation en actuariat.
 
-  - area: MSc Finance quantitative
+  - area: Master M2MO - Modélisation aléatoire, Finance et Data
     institution: Université Paris Cité
     icon: ""
     date_start: 2024-09-01
     date_end: 2025-10-31
     summary: |
-      Master de finance mathématique.
+      Master de finance mathématique (Ex DEA Laure Elie)
 
   - area: Diplôme d'ingénieur
     institution: IMT Atlantique
@@ -81,7 +83,7 @@ work:
     date_start: 2025-05-19
     date_end: 2025-10-31
     summary: |
-      - Sujet de recherche : tarification d'options européennes sur un marché illiquide — approche par diffusion à sauts subordonnée, avec des applications à l'assurance-vie et aux outils de gestion de bilan.
+      - Sujet de recherche : tarification d'options européennes sur un marché illiquide — approche par diffusion subordonnée à sauts, avec des applications à l'assurance-vie et aux outils de gestion de bilan.
 
   - position: Stagiaire actuaire
     company_name: AON Luxembourg
@@ -138,6 +140,6 @@ languages:
   - name: Italien
     percent: 2
 ---
-Je suis doctorant au CREST (ENSAE, IP Paris) en mathématiques appliquées, avec un fort intérêt pour le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Pendant mes études à l'ENSAE et au master M2MO, j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale sous incertitude et la gestion des risques fondée sur les modèles.
+Je suis doctorant à l'Institut Polytechnique de Paris, au sein du CMAP (École Polytechnique) et du CREST (ENSAE). Mes travaux portent sur le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Pendant mes études à l'ENSAE et au master M2MO, j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale sous incertitude et la gestion des risques fondée sur les modèles.
 
 En dehors de la recherche, j'aime jouer du piano et pratiquer le ping-pong. Je prends également plaisir à lire et découvrir de nouvelles choses sur l'histoire des mathématiques.
