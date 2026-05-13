@@ -53,12 +53,6 @@ profiles:
 
 interests:
   - "[Stochastic control](https://en.wikipedia.org/wiki/Stochastic_control)"
-  - "[Partial differential equations](https://en.wikipedia.org/wiki/Partial_differential_equation)"
-  - "[Viscosity solutions](https://en.wikipedia.org/wiki/Viscosity_solution)"
-  - "[Hawkes process](https://en.wikipedia.org/wiki/Hawkes_process)"
-  - "[Bayesian learning](https://en.wikipedia.org/wiki/Bayesian_inference)"
-  - "Cyber risk"
-  - "[Quantitative finance](https://en.wikipedia.org/wiki/Quantitative_finance)"
 
 education:
   - area: PhD in Applied Mathematics
@@ -225,6 +219,6 @@ languages:
 #      Recognized for contributions to scaling laws in deep learning.
 ---
 
-I’m a PhD student at Institut Polytechnique de Paris, working jointly at CMAP (École Polytechnique) and CREST (ENSAE). My research focuses on stochastic control, probability, and their applications to finance and insurance. I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at ENSAE and the M2MO program, I developed a particular interest in stochastic processes, optimal decision-making under uncertainty, and model-based risk management.
+I’m a PhD student at Institut Polytechnique de Paris, working jointly at CMAP (École Polytechnique) and CREST (ENSAE). My research focuses on stochastic control, probability, and their applications to finance and insurance. Since March 2026, I have been an Associate Actuary and a member of the Institut des actuaires. I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at ENSAE and the M2MO program, I developed a particular interest in stochastic processes, optimal decision-making under uncertainty, and model-based risk management.
 
 Outside of research, I enjoy playing the piano and practicing ping-pong. I also like reading about the history of mathematics and sharing knowledge with others.

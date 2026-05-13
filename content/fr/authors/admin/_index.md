@@ -27,12 +27,6 @@ profiles:
     url: https://orcid.org/0009-0006-0118-3728
 interests:
   - "Contrôle stochastique"
-  - "[Équations aux dérivées partielles](https://fr.wikipedia.org/wiki/%C3%89quation_aux_d%C3%A9riv%C3%A9es_partielles)"
-  - "Solutions de viscosité"
-  - "[Processus de Hawkes](https://fr.wikipedia.org/wiki/Processus_de_Hawkes)"
-  - "[Apprentissage bayésien](https://fr.wikipedia.org/wiki/Inf%C3%A9rence_bay%C3%A9sienne)"
-  - "Risque cyber"
-  - "[Finance quantitative](https://fr.wikipedia.org/wiki/Finance_quantitative)"
 education:
   - area: Doctorat en mathématiques appliquées
     institution: Institut Polytechnique de Paris — CMAP & CREST
@@ -140,6 +134,6 @@ languages:
   - name: Italien
     percent: 2
 ---
-Je suis doctorant à l'Institut Polytechnique de Paris, au sein du CMAP (École Polytechnique) et du CREST (ENSAE). Mes travaux portent sur le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Pendant mes études à l'ENSAE et au master M2MO, j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale sous incertitude et la gestion des risques fondée sur les modèles.
+Je suis doctorant à l'Institut Polytechnique de Paris, au sein du CMAP (École Polytechnique) et du CREST (ENSAE). Mes travaux portent sur le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Depuis mars 2026, je suis actuaire associé et membre de l'Institut des actuaires. Pendant mes études à l'ENSAE et au master M2MO, j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale sous incertitude et la gestion des risques fondée sur les modèles.
 
 En dehors de la recherche, j'aime jouer du piano et pratiquer le ping-pong. Je prends également plaisir à lire et découvrir de nouvelles choses sur l'histoire des mathématiques.
