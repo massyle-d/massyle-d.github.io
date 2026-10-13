@@ -12,7 +12,7 @@ en:
   languages: Language
   institution: Institut Polytechnique de Paris
   about_title: About me
-  research_title: Hawkes processes & Bayesian learning
+  research_title: Hawkes processes & intensity control
   research_intro: Stochastic control, probability and their applications to finance and insurance.
   research_link: Publications, talks & conferences
   publications: Publications
@@ -56,7 +56,7 @@ fr:
   languages: Langue
   institution: Institut Polytechnique de Paris
   about_title: À propos de moi
-  research_title: Processus de Hawkes & apprentissage bayésien
+  research_title: Processus de Hawkes & contrôle de l’intensité
   research_intro: Contrôle stochastique, probabilités et applications à la finance et à l’assurance.
   research_link: Publications, exposés & conférences
   publications: Publications

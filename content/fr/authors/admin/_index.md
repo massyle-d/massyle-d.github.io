@@ -35,7 +35,7 @@ education:
     date_start: 2025-11-17
     date_end: 2028-11-17
     summary: |
-      Thèse sur le contrôle stochastique de l'intensité d'un processus de Hawkes avec apprentissage bayésien. Encadré par Roxana Dumitrescu, Nicolas Baradel et Caroline Hillairet.
+      Thèse sur le contrôle stochastique de l'intensité d'un processus de Hawkes. Encadré par Roxana Dumitrescu, Nicolas Baradel et Caroline Hillairet.
   - area: Diplôme d'ingénieur
     institution: ENSAE
     institution_url: https://www.ensae.fr/

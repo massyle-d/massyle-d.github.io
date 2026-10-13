@@ -62,7 +62,7 @@ education:
     date_start: 2025-11-17
     date_end: 2028-11-17
     summary: |
-      Thesis on Stochastic control of intensity of Hawkes process with Bayesian learning. Supervised by Roxana Dumitrescu, Nicolas Baradel and Caroline Hillairet.
+      Thesis on stochastic intensity control for Hawkes processes. Supervised by Roxana Dumitrescu, Nicolas Baradel and Caroline Hillairet.
     #button:
     #  text: 'Read Thesis'
     #  url: ''

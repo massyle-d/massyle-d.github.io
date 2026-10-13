@@ -2,7 +2,7 @@
 # Leave the homepage title empty to use the site title
 title: 'Massyle DENDENE | Applied Mathematics PhD Student'
 summary: 'Massyle DENDENE is a PhD student at Institut Polytechnique de Paris (CMAP & CREST) specializing in stochastic control, Hawkes processes, cyber risk, and quantitative finance.'
-description: 'Discover the work of Massyle DENDENE, an applied mathematics PhD student at Institut Polytechnique de Paris (CMAP & CREST) focused on stochastic control of Hawkes processes with Bayesian learning, actuarial science, and financial risk modeling.'
+description: 'Discover the work of Massyle DENDENE, an applied mathematics PhD student at Institut Polytechnique de Paris (CMAP & CREST) focused on stochastic control of Hawkes processes, actuarial science, and financial risk modeling.'
 keywords:
   - Massyle DENDENE
   - Applied mathematics PhD student
@@ -45,7 +45,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My current work explores optimal control of intensity of Hawkes processes with Bayesian learning, with applications to cyber risk in finance. My supervisors are [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en), [Nicolas Baradel](https://www.nicolasbaradel.fr/?lang=en), and [Caroline Hillairet](https://sites.google.com/site/carolinehillairet). I'm truly grateful for the support of the chair "[Stress Test, Risk Management and Financial Steering](http://www.cmap.polytechnique.fr/~stresstest/)" founded by [École Polytechnique](https://www.polytechnique.edu/), [Fondation de l'École polytechnique](https://www.polytechnique.edu/fondation/) and [BNP Paribas](https://group.bnpparibas/).
+        My current work explores optimal control of the intensity of Hawkes processes, with applications to cyber risk in finance. My supervisors are [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en), [Nicolas Baradel](https://www.nicolasbaradel.fr/?lang=en), and [Caroline Hillairet](https://sites.google.com/site/carolinehillairet). I'm truly grateful for the support of the chair "[Stress Test, Risk Management and Financial Steering](http://www.cmap.polytechnique.fr/~stresstest/)" founded by [École Polytechnique](https://www.polytechnique.edu/), [Fondation de l'École polytechnique](https://www.polytechnique.edu/fondation/) and [BNP Paribas](https://group.bnpparibas/).
 
     design:
       columns: '1'
