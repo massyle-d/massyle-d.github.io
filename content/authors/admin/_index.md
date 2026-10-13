@@ -57,6 +57,7 @@ interests:
 education:
   - area: PhD in Applied Mathematics
     institution: Institut Polytechnique de Paris — CMAP & CREST
+    institution_url: https://www.ip-paris.fr/
     icon: ""
     date_start: 2025-11-17
     date_end: 2028-11-17
@@ -67,6 +68,7 @@ education:
     #  url: ''
   - area: MS Actuarial Sciences
     institution: ENSAE
+    institution_url: https://www.ensae.fr/
     icon: ""
     date_start: 2023-09-01
     date_end: 2025-10-31
@@ -77,6 +79,7 @@ education:
 
   - area: MS Quantitative Finance
     institution: Université Paris Cité
+    institution_url: https://m2mo.math.u-paris.fr/
     icon: ""
     date_start: 2024-09-01
     date_end: 2025-10-31
@@ -85,6 +88,7 @@ education:
 
   - area: MS Engineering
     institution: IMT Atlantique
+    institution_url: https://www.imt-atlantique.fr/en
     icon: ""
     date_start: 2021-09-01
     date_end: 2023-08-31
@@ -93,6 +97,7 @@ education:
 
   - area: BS Mathematics & Economy
     institution: Université de Bretagne Occidentale (UBO)
+    institution_url: https://www.univ-brest.fr/fr
     icon: ""
     date_start: 2022-09-01
     date_end: 2023-08-31

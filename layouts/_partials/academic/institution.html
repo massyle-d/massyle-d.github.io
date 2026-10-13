@@ -1,0 +1,5 @@
+{{- if .institution_url -}}
+<a href="{{ .institution_url }}">{{ .institution }}</a>
+{{- else -}}
+{{ .institution }}
+{{- end -}}

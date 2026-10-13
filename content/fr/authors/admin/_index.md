@@ -30,6 +30,7 @@ interests:
 education:
   - area: Doctorat en mathématiques appliquées
     institution: Institut Polytechnique de Paris — CMAP & CREST
+    institution_url: https://www.ip-paris.fr/
     icon: ""
     date_start: 2025-11-17
     date_end: 2028-11-17
@@ -37,6 +38,7 @@ education:
       Thèse sur le contrôle stochastique de l'intensité d'un processus de Hawkes avec apprentissage bayésien. Encadré par Roxana Dumitrescu, Nicolas Baradel et Caroline Hillairet.
   - area: Diplôme d'ingénieur
     institution: ENSAE
+    institution_url: https://www.ensae.fr/
     icon: ""
     date_start: 2023-09-01
     date_end: 2025-10-31
@@ -47,6 +49,7 @@ education:
 
   - area: Master M2MO - Modélisation aléatoire, Finance et Data
     institution: Université Paris Cité
+    institution_url: https://m2mo.math.u-paris.fr/
     icon: ""
     date_start: 2024-09-01
     date_end: 2025-10-31
@@ -55,6 +58,7 @@ education:
 
   - area: Diplôme d'ingénieur
     institution: IMT Atlantique
+    institution_url: https://www.imt-atlantique.fr/fr
     icon: ""
     date_start: 2021-09-01
     date_end: 2023-08-31
@@ -63,6 +67,7 @@ education:
 
   - area: Licence Mathématiques & Économie
     institution: Université de Bretagne Occidentale (UBO)
+    institution_url: https://www.univ-brest.fr/fr
     icon: ""
     date_start: 2022-09-01
     date_end: 2023-08-31

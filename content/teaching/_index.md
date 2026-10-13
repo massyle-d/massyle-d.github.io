@@ -12,11 +12,19 @@ sections:
     content:
       title: Sharing mathematics in the classroom
       text: |-
-        I enjoy transmitting probability and quantitative finance skills to others. Below is an overview of the courses I am scheduled to teach starting in 2026.
+        I teach tutorials in probability and financial mathematics as a teaching assistant at ENSAE Paris.
+  - block: markdown
+    content:
+      title: 'Academic Year 2026–2027'
+      text: |-
+        - **Probability Theory (1A ENSAE, L3, 28.5h)** — Course taught by [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).
+        - **Financial Mathematics (2A ENSAE, M1, 12h)** — Course taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
+        - **Financial Instruments (M1, 9h)** — Course taught by [Olivier David Zerbib](https://sites.google.com/view/odzerbib).
+        - **Introduction to Stochastic Processes (M1, 13.5h)** — Course taught by [Austin J. Stromme](https://austinjstromme.github.io/).
   - block: markdown
     content:
       title: 'Academic Year 2025–2026'
       text: |-
-        - **Probability Theory (1A ENSAE, L3, 28.5h)** — Core undergraduate course taught by [Victor-Emmanuel Brunel](https://vebrunel.fr/).
-        - **Financial Mathematics (2A ENSAE, M1, 12h)** — Master-level course in taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
+        - **Probability Theory (1A ENSAE, L3, 28.5h)** — Course taught by [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).
+        - **Financial Mathematics (2A ENSAE, M1, 12h)** — Course taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
 ---
