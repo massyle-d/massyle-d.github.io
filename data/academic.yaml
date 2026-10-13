@@ -1,0 +1,88 @@
+en:
+  about: About
+  research: Research
+  teaching: Teaching
+  experience: Experience
+  education: Education
+  cv: CV
+  download_cv: Download CV
+  cv_path: uploads/CV_Massyle_DENDENE.pdf
+  skip: Skip to content
+  navigation: Main navigation
+  languages: Language
+  institution: Institut Polytechnique de Paris
+  about_title: About me
+  research_title: Hawkes processes & Bayesian learning
+  research_intro: Stochastic control, probability and their applications to finance and insurance.
+  research_link: Publications, talks & conferences
+  publications: Publications
+  publications_soon: Coming soon.
+  talks: Talks & conferences
+  upcoming: Upcoming
+  paper: Paper
+  slides: Slides
+  abstract: Abstract
+  education_link: Full background & experience
+  contact: Get in touch
+  contact_text: For questions about my research or potential collaborations, feel free to contact me.
+  contact_email: Email
+  elsewhere: Elsewhere
+  interests: Research interests
+  topics:
+    - Stochastic control
+    - Probability
+    - Finance & insurance
+  experience_intro: My academic background and experience in quantitative research and actuarial science.
+  work: Research & professional experience
+  languages_title: Languages
+  languages_list: Kabyle, French, English, German, Italian
+  skills: Tools & interests
+  tools: Python, R & Git
+  hobbies: Piano, table tennis and blood donation.
+  footer: Applied mathematics · Finance · Insurance
+  license: Content licensed under
+  current: Present
+fr:
+  about: À propos
+  research: Recherche
+  teaching: Enseignement
+  experience: Parcours
+  education: Formation
+  cv: CV
+  download_cv: Télécharger le CV
+  cv_path: uploads/CV_Massyle_DENDENE.pdf
+  skip: Aller au contenu
+  navigation: Navigation principale
+  languages: Langue
+  institution: Institut Polytechnique de Paris
+  about_title: À propos de moi
+  research_title: Processus de Hawkes & apprentissage bayésien
+  research_intro: Contrôle stochastique, probabilités et applications à la finance et à l’assurance.
+  research_link: Publications, exposés & conférences
+  publications: Publications
+  publications_soon: À venir.
+  talks: Exposés & conférences
+  upcoming: À venir
+  paper: Article
+  slides: Diapositives
+  abstract: Résumé
+  education_link: Formation et expériences détaillées
+  contact: Me contacter
+  contact_text: Pour échanger sur mes travaux ou envisager une collaboration, vous pouvez me contacter par courriel.
+  contact_email: Courriel
+  elsewhere: Autres liens
+  interests: Domaines de recherche
+  topics:
+    - Contrôle stochastique
+    - Probabilités
+    - Finance & assurance
+  experience_intro: Mon parcours académique et mes expériences en recherche quantitative et en actuariat.
+  work: Recherche & expériences professionnelles
+  languages_title: Langues
+  languages_list: Kabyle, français, anglais, allemand, italien
+  skills: Outils & centres d’intérêt
+  tools: Python, R & Git
+  hobbies: Piano, tennis de table et don du sang.
+  footer: Mathématiques appliquées · Finance · Assurance
+  license: Contenu sous licence
+  current: En cours

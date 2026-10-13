@@ -28,7 +28,7 @@ role: PhD Student, Applied Mathematics
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: CMAP (École Polytechnique)
-    url: https://cmap.ip-paris.fr/recherche/probabilite/mathsfi
+    url: https://cmap.ip-paris.fr/en/research/probability/mathsfi
   - name: CREST (ENSAE)
     url: https://crest.science/
 
@@ -57,6 +57,7 @@ interests:
 education:
   - area: PhD in Applied Mathematics
     institution: Institut Polytechnique de Paris — CMAP & CREST
+    institution_url: https://www.ip-paris.fr/en
     icon: ""
     date_start: 2025-11-17
     date_end: 2028-11-17
@@ -67,6 +68,7 @@ education:
     #  url: ''
   - area: MS Actuarial Sciences
     institution: ENSAE
+    institution_url: https://www.ensae.fr/en
     icon: ""
     date_start: 2023-09-01
     date_end: 2025-10-31
@@ -77,6 +79,7 @@ education:
 
   - area: MS Quantitative Finance
     institution: Université Paris Cité
+    institution_url: https://m2mo.math.u-paris.fr/
     icon: ""
     date_start: 2024-09-01
     date_end: 2025-10-31
@@ -85,6 +88,7 @@ education:
 
   - area: MS Engineering
     institution: IMT Atlantique
+    institution_url: https://www.imt-atlantique.fr/en
     icon: ""
     date_start: 2021-09-01
     date_end: 2023-08-31
@@ -93,6 +97,7 @@ education:
 
   - area: BS Mathematics & Economy
     institution: Université de Bretagne Occidentale (UBO)
+    institution_url: https://www.univ-brest.fr/en
     icon: ""
     date_start: 2022-09-01
     date_end: 2023-08-31
@@ -127,7 +132,7 @@ work:
 
   - position: Actuary Intern
     company_name: AON Luxembourg
-    company_url: 'https://www.aon.com/luxembourg/default.jsp'
+    company_url: 'https://www.aon.com/luxembourg/fr/risk/default'
     icon: ''
     date_start: 2024-06-10
     date_end: 2024-09-29

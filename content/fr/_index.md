@@ -11,7 +11,7 @@ keywords:
   - Finance quantitative
   - Risque cyber
 date: 2022-10-24
-type: landing
+type: academic
 
 
 design:

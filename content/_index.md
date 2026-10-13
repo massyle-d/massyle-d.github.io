@@ -11,7 +11,7 @@ keywords:
   - Quantitative finance
   - Cyber risk
 date: 2022-10-24
-type: landing
+type: academic
 
 
 design:
