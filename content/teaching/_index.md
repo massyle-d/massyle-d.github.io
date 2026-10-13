@@ -1,7 +1,8 @@
 ---
 title: 'Teaching'
 date: 2025-01-01
-type: landing
+type: academic
+academic_page: teaching
 
 design:
   spacing: '4rem'

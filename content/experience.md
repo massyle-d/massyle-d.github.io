@@ -1,7 +1,8 @@
 ---
 title: 'Experience'
 date: 2023-10-24
-type: landing
+type: academic
+academic_page: experience
 
 design:
   spacing: '5rem'
