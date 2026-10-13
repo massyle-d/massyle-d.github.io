@@ -17,14 +17,14 @@ sections:
     content:
       title: 'Academic Year 2026–2027'
       text: |-
-        - **Probability Theory (1A ENSAE, L3, 28.5h)** — Course taught by [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).
-        - **Financial Mathematics (2A ENSAE, M1, 12h)** — Course taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
-        - **Financial Instruments (M1, 9h)** — Course taught by [Olivier David Zerbib](https://sites.google.com/view/odzerbib).
-        - **Introduction to Stochastic Processes (M1, 13.5h)** — Course taught by [Austin J. Stromme](https://austinjstromme.github.io/).
+        - **Probability Theory (1y ENSAE, L3, 28.5h)** — Course taught by [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).
+        - **Financial Mathematics (2y ENSAE, M1, 12h)** — Course taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
+        - **Financial Instruments (2y ENSAE, M1, 9h)** — Course taught by [Olivier David Zerbib](https://sites.google.com/view/odzerbib).
+        - **Introduction to Stochastic Processes (2y ENSAE, M1, 13.5h)** — Course taught by [Austin J. Stromme](https://austinjstromme.github.io/).
   - block: markdown
     content:
       title: 'Academic Year 2025–2026'
       text: |-
-        - **Probability Theory (1A ENSAE, L3, 28.5h)** — Course taught by [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).
-        - **Financial Mathematics (2A ENSAE, M1, 12h)** — Course taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
+        - **Probability Theory (1y ENSAE, L3, 28.5h)** — Course taught by [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).
+        - **Financial Mathematics (2y ENSAE, M1, 12h)** — Course taught by [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en).
 ---
