@@ -85,8 +85,8 @@ work:
       - Sujet de recherche : tarification d'options européennes sur un marché illiquide — approche par diffusion subordonnée à sauts, avec des applications à l'assurance-vie et aux outils de gestion de bilan.
 
   - position: Stagiaire actuaire
-    company_name: AON Luxembourg
-    company_url: 'https://www.aon.com/luxembourg/default.jsp'
+    company_name: AGRC Luxembourg
+    company_url: 'https://www.aon.com/luxembourg/fr/risk/default'
     icon: ''
     date_start: 2024-06-10
     date_end: 2024-09-29
@@ -139,6 +139,6 @@ languages:
   - name: Italien
     percent: 2
 ---
-Je suis doctorant à l'Institut Polytechnique de Paris, au sein du CMAP (École Polytechnique) et du CREST (ENSAE). Mes travaux portent sur le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Depuis mars 2026, je suis actuaire associé et membre de l'Institut des actuaires. Pendant mes études à l'ENSAE et au master M2MO, j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale sous incertitude et la gestion des risques fondée sur les modèles.
+Je suis doctorant à l'Institut Polytechnique de Paris, au sein du CMAP (École Polytechnique) et du CREST (ENSAE). Mes travaux portent sur le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Depuis mars 2026, je suis actuaire associé et membre de l'[Institut des actuaires](https://www.institutdesactuaires.com/). Pendant mes études à l'ENSAE et au master M2MO, j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale et la gestion des risques.
 
 En dehors de la recherche, j'aime jouer du piano et pratiquer le ping-pong. Je prends également plaisir à lire et découvrir de nouvelles choses sur l'histoire des mathématiques.

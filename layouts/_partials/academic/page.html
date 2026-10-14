@@ -33,7 +33,7 @@
   <a class="skip-link" href="#main">{{ $ui.skip }}</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="{{ $home }}">{{ $displayName }}<span class="wordmark-dot" aria-hidden="true">.</span></a>
+      <a class="wordmark" href="{{ $home }}">{{ $displayName }}</a>
       <nav class="main-nav" aria-label="{{ $ui.navigation }}">
         <a href="{{ $home }}#about" {{ if .IsHome }}aria-current="page"{{ end }}>{{ $ui.about }}</a>
         <a href="{{ "research/" | relLangURL }}" {{ if $isResearch }}aria-current="page"{{ end }}>{{ $ui.research }}</a>
@@ -88,6 +88,6 @@
     {{ end }}
   {{ end }}
   </main>
-  <footer class="site-footer"><div class="footer-top"><span class="wordmark">{{ $displayName }}<span class="wordmark-dot" aria-hidden="true">.</span></span><nav class="social-links" aria-label="{{ $ui.elsewhere }}">{{ range $author.Params.profiles }}{{ if not (hasPrefix .url "mailto:") }}<a href="{{ .url }}">{{ if eq .icon "brands/github" }}GitHub{{ else if eq .icon "brands/linkedin" }}LinkedIn{{ else if eq .icon "academicons/researchgate" }}ResearchGate{{ else if eq .icon "academicons/orcid" }}ORCID{{ end }} <span aria-hidden="true">↗</span></a>{{ end }}{{ end }}</nav></div><div class="footer-bottom"><span>© {{ now.Year }} {{ $displayName }} · {{ $ui.footer }}</span><span>{{ $ui.license }} <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></span></div></footer>
+  <footer class="site-footer"><div class="footer-top"><span class="wordmark">{{ $displayName }}</span><nav class="social-links" aria-label="{{ $ui.elsewhere }}">{{ range $author.Params.profiles }}{{ if not (hasPrefix .url "mailto:") }}<a href="{{ .url }}">{{ if eq .icon "brands/github" }}GitHub{{ else if eq .icon "brands/linkedin" }}LinkedIn{{ else if eq .icon "academicons/researchgate" }}ResearchGate{{ else if eq .icon "academicons/orcid" }}ORCID{{ end }} <span aria-hidden="true">↗</span></a>{{ end }}{{ end }}</nav></div><div class="footer-bottom"><span>© {{ now.Year }} {{ $displayName }} · {{ $ui.footer }}</span><span>{{ $ui.license }} <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></span></div></footer>
 </body>
 </html>

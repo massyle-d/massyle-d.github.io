@@ -16,9 +16,10 @@
     <ol class="talk-list">
       {{ range sort site.Data.research.talks "date" "desc" }}
       {{ $end := .date_end | default .date }}
+      {{ $eventURL := .event_url }}{{ with .event_urls }}{{ $eventURL = index . $lang }}{{ end }}
       <li>
         <div class="talk-date"><time datetime="{{ .date }}">{{ time.Format ":date_long" (time.AsTime .date) }}</time>{{ with .date_end }}<span aria-hidden="true"> – </span><time datetime="{{ . }}">{{ time.Format ":date_long" (time.AsTime .) }}</time>{{ end }}{{ if ge $end (now.Format "2006-01-02") }}<span class="talk-status">{{ $ui.upcoming }}</span>{{ end }}</div>
-        <div class="talk-details"><h3>{{ if .event_url }}<a href="{{ .event_url }}">{{ index .title $lang }}</a>{{ else }}{{ index .title $lang }}{{ end }}</h3><p class="talk-location">{{ index .location $lang }}</p><p class="talk-description">{{ index .description $lang }}</p>{{ with .slides }}<a class="text-link" href="{{ . }}">{{ $ui.slides }} <span aria-hidden="true">↗</span></a>{{ end }}</div>
+        <div class="talk-details"><h3>{{ if $eventURL }}<a href="{{ $eventURL }}">{{ index .title $lang }}</a>{{ else }}{{ index .title $lang }}{{ end }}</h3><p class="talk-location">{{ index .location $lang }}</p><p class="talk-description">{{ index .description $lang }}</p>{{ with .slides }}<a class="text-link" href="{{ . }}">{{ $ui.slides }} <span aria-hidden="true">↗</span></a>{{ end }}</div>
       </li>
       {{ end }}
     </ol>

@@ -19,9 +19,12 @@ talks:
     title:
       en: FiME PhD Seminar
       fr: Séminaire doctoral FiME
+    event_urls:
+      en: https://fime-lab.org/en/home/about-labs/
+      fr: https://fime-lab.org/accueil/le-laboratoire/
     location:
-      en: ISFA, Lyon, France
-      fr: ISFA, Lyon, France
+      en: Institut Henri Poincaré, Paris, France
+      fr: Institut Henri Poincaré, Paris, France
     description:
       en: Invited talk.
       fr: Exposé invité.
