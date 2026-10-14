@@ -45,7 +45,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My current work explores optimal control of the intensity of Hawkes processes, with applications to cyber risk in finance. My supervisors are [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en), [Nicolas Baradel](https://www.nicolasbaradel.fr/?lang=en), and [Caroline Hillairet](https://sites.google.com/site/carolinehillairet). I'm truly grateful for the support of the chair "[Stress Test, Risk Management and Financial Steering](http://www.cmap.polytechnique.fr/~stresstest/)" founded by [École Polytechnique](https://www.polytechnique.edu/), [Fondation de l'École polytechnique](https://www.polytechnique.edu/fondation/) and [BNP Paribas](https://group.bnpparibas/).
+        My current work explores optimal control of the intensity of Hawkes processes, with applications to cyber risk in finance. My supervisors are [Roxana Dumitrescu](https://www.roxanadumitrescu.fr/?lang=en), [Nicolas Baradel](https://www.nicolasbaradel.fr/?lang=en), and [Caroline Hillairet](https://sites.google.com/site/carolinehillairet). I'm truly grateful for the support of the chair "[Stress Test, Risk Management and Financial Steering](http://www.cmap.polytechnique.fr/~stresstest/)" founded by [École Polytechnique](https://www.polytechnique.edu/en), [Fondation de l'École polytechnique](https://www.polytechnique.edu/fondation/) and [BNP Paribas](https://group.bnpparibas/).
 
     design:
       columns: '1'
