@@ -139,6 +139,6 @@ languages:
   - name: Italien
     percent: 2
 ---
-Je suis doctorant à l'Institut Polytechnique de Paris, au sein du CMAP (École Polytechnique) et du CREST (ENSAE). Mes travaux portent sur le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Depuis mars 2026, je suis actuaire associé et membre de l'[Institut des actuaires](https://www.institutdesactuaires.com/). Pendant mes études à l'ENSAE et au master M2MO, j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale et la gestion des risques.
+Je suis doctorant à l'Institut Polytechnique de Paris, au sein du [CMAP](https://cmap.ip-paris.fr/recherche/probabilite/mathsfi) (École Polytechnique) et du [CREST](https://crest.science/) ([ENSAE](https://www.ensae.fr/)). Mes travaux portent sur le contrôle stochastique, les probabilités et leurs applications à la finance et à l'assurance. Depuis mars 2026, je suis actuaire associé et membre de l'[Institut des actuaires](https://www.institutdesactuaires.com/). Pendant mes études à l'[ENSAE](https://www.ensae.fr/) et au master [M2MO](https://m2mo.math.u-paris.fr/), j'ai développé un intérêt particulier pour les processus stochastiques, la décision optimale et la gestion des risques.
 
 En dehors de la recherche, j'aime jouer du piano et pratiquer le ping-pong. Je prends également plaisir à lire et découvrir de nouvelles choses sur l'histoire des mathématiques.
