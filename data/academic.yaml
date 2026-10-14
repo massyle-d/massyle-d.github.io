@@ -6,7 +6,7 @@ en:
   education: Education
   cv: CV
   download_cv: Download CV
-  cv_path: uploads/CV_Massyle_DENDENE.pdf
+  cv_path: uploads/CV_Massyle_DENDENE.pdf?v=e60f7ab3205c
   skip: Skip to content
   navigation: Main navigation
   languages: Language
@@ -50,7 +50,7 @@ fr:
   education: Formation
   cv: CV
   download_cv: Télécharger le CV
-  cv_path: uploads/CV_Massyle_DENDENE.pdf
+  cv_path: uploads/CV_Massyle_DENDENE.pdf?v=e60f7ab3205c
   skip: Aller au contenu
   navigation: Navigation principale
   languages: Langue

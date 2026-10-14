@@ -9,7 +9,7 @@ The English and French home, research, experience and teaching pages use the `ac
 - Publications and talks: `data/research.yaml`. The research page displays publications first, then talks in reverse chronological order. Empty publications show "Coming soon" / "À venir". Talk titles, locations and descriptions have `en` and `fr` values; dates use `YYYY-MM-DD`. Use `event_url` for a shared link or `event_urls` with `en` and `fr` values for language-specific links.
 - Teaching: `content/teaching/_index.md` and `content/fr/teaching/_index.md`.
 - Navigation labels, introductory text and CV file paths: `data/academic.yaml`.
-- CV: `static/uploads/CV_Massyle_DENDENE.pdf`, shared by both site languages. The older `CV_mass_eng.pdf` and `CV_mass_fr.pdf` URLs serve identical copies to preserve existing links. Replace all three together when updating the CV.
+- CV: `static/uploads/CV_Massyle_DENDENE.pdf`, shared by both site languages. The older `CV_mass_eng.pdf` and `CV_mass_fr.pdf` URLs serve identical copies to preserve existing links. Replace all three together when updating the CV. Update the `?v=` suffix in both `cv_path` values in `data/academic.yaml` with the first 12 characters of the new PDF's SHA-256 hash so browsers fetch the latest version.
 - Education links: `institution_url` in each author's `education` list. IMT Atlantique uses `/en` for the English site and `/fr` for the French site.
 - Portrait: `content/authors/admin/avatar.png`. Hugo creates a smaller WebP image shared by both languages.
 
