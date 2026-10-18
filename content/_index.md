@@ -1,11 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 'Massyle DENDENE | Applied Mathematics PhD Student'
-summary: 'Massyle DENDENE is a PhD student at Institut Polytechnique de Paris (CMAP & CREST) specializing in stochastic control, Hawkes processes, cyber risk, and quantitative finance.'
-description: 'Discover the work of Massyle DENDENE, an applied mathematics PhD student at Institut Polytechnique de Paris (CMAP & CREST) focused on stochastic control of Hawkes processes, actuarial science, and financial risk modeling.'
+title: 'Massyle DENDENE | Applied Mathematics PhD Candidate'
+summary: 'Massyle DENDENE is a PhD candidate at Institut Polytechnique de Paris (CMAP & CREST) specializing in stochastic control, Hawkes processes, cyber risk, and quantitative finance.'
+description: 'Discover the work of Massyle DENDENE, an applied mathematics PhD candidate at Institut Polytechnique de Paris (CMAP & CREST) focused on stochastic control of Hawkes processes, actuarial science, and financial risk modeling.'
 keywords:
   - Massyle DENDENE
-  - Applied mathematics PhD student
+  - Applied mathematics PhD candidate
   - Stochastic control
   - Hawkes processes
   - Quantitative finance

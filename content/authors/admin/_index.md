@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student, Applied Mathematics
+role: PhD Candidate, Applied Mathematics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -225,6 +225,6 @@ languages:
 #      Recognized for contributions to scaling laws in deep learning.
 ---
 
-I’m a PhD student at Institut Polytechnique de Paris, working jointly at [CMAP](https://cmap.ip-paris.fr/en/research/probability/mathsfi) ([École Polytechnique](https://www.polytechnique.edu/en)) and [CREST](https://crest.science/) ([ENSAE](https://www.ensae.fr/en)). My research focuses on stochastic control, probability, and their applications to finance and insurance. Since March 2026, I have been an Associate Actuary and a member of the [Institut des actuaires](https://www.institutdesactuaires.com/). I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at [ENSAE](https://www.ensae.fr/en) and the [M2MO](https://m2mo.math.u-paris.fr/) program, I developed a particular interest in stochastic processes, optimal decision-making, and risk management.
+I’m a PhD candidate at Institut Polytechnique de Paris, working jointly at [CMAP](https://cmap.ip-paris.fr/en/research/probability/mathsfi) ([École Polytechnique](https://www.polytechnique.edu/en)) and [CREST](https://crest.science/) ([ENSAE](https://www.ensae.fr/en)). My research focuses on stochastic control, probability, and their applications to finance and insurance. Since March 2026, I have been an Associate Actuary and a member of the [Institut des actuaires](https://www.institutdesactuaires.com/). I’m passionate about mathematical modeling and theoretical research, and I enjoy working at the intersection of probability, PDEs, and quantitative finance. During my studies at [ENSAE](https://www.ensae.fr/en) and the [M2MO](https://m2mo.math.u-paris.fr/) program, I developed a particular interest in stochastic processes, optimal decision-making, and risk management.
 
 Outside of research, I enjoy playing the piano and practicing ping-pong. I also like reading about the history of mathematics and sharing knowledge with others.
