@@ -97,6 +97,7 @@ h3{font-size:1.2rem;letter-spacing:-.012em}
 .talk-location,.publication-meta{color:var(--quiet);font-size:.83rem;margin-top:8px}
 .talk-description{font-size:.9rem;color:var(--quiet);margin-top:7px}
 .publication-list>li{padding:22px 0;border-top:1px solid var(--line)}
+.cheese-egg{position:fixed;right:24px;bottom:24px;z-index:50;max-width:calc(100% - 32px);padding:12px 18px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--accent);box-shadow:0 4px 20px rgb(33 50 62 / .12);font:1.25rem/1.4 var(--serif);pointer-events:none}
 @media(max-width:620px){.talk-list>li{grid-template-columns:1fr;gap:10px;padding:22px 0}.talk-status{display:inline;margin-left:12px}.research-page{padding-bottom:40px}.research-group{margin-top:28px;padding-top:24px}}
 @media(min-width:1600px){.header-inner,.site-main,.site-footer{width:min(1140px,calc(100% - 96px))}}
 @media(max-width:1000px){.header-inner{gap:20px}.main-nav{gap:17px}.language-nav{padding-left:15px}.hero{gap:45px;grid-template-columns:minmax(0,1fr) 210px}.portrait img{width:194px}.home-columns{gap:40px}.sidebar{padding-left:27px}.contact-section{align-items:flex-start;flex-direction:column;gap:20px}}

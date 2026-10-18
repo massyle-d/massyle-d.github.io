@@ -10,6 +10,7 @@
 {{- $portrait := $englishAuthor.Resources.GetMatch "avatar*" -}}
 {{- $description := .Description | default .Summary | default site.Params.description | plainify -}}
 {{- $css := resources.Get "css/academic.css" | minify | fingerprint -}}
+{{- $chiz := resources.Get "js/chiz.js" | minify | fingerprint -}}
 <!doctype html>
 <html lang="{{ .Language.LanguageCode | default .Language.Lang }}">
 <head>
@@ -18,6 +19,9 @@
   <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ $displayName }}{{ end }}</title>
   <meta name="description" content="{{ $description }}">
   <meta name="theme-color" content="#faf9f6">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+  <link rel="icon" type="image/png" href="{{ "favicon-32x32.png" | relURL }}" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" sizes="180x180">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
   <meta property="og:title" content="{{ .Title }}">
@@ -27,6 +31,7 @@
   <meta property="og:image" content="{{ "uploads/massyle-dendene.png" | absURL }}">
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  <script src="{{ $chiz.RelPermalink }}" integrity="{{ $chiz.Data.Integrity }}" defer></script>
   {{ partial "blox-analytics/index" . }}
 </head>
 <body>
@@ -89,5 +94,6 @@
   {{ end }}
   </main>
   <footer class="site-footer"><div class="footer-top"><span class="wordmark">{{ $displayName }}</span><nav class="social-links" aria-label="{{ $ui.elsewhere }}">{{ range $author.Params.profiles }}{{ if not (hasPrefix .url "mailto:") }}<a href="{{ .url }}">{{ if eq .icon "brands/github" }}GitHub{{ else if eq .icon "brands/linkedin" }}LinkedIn{{ else if eq .icon "academicons/researchgate" }}ResearchGate{{ else if eq .icon "academicons/orcid" }}ORCID{{ end }} <span aria-hidden="true">↗</span></a>{{ end }}{{ end }}</nav></div><div class="footer-bottom"><span>© {{ now.Year }} {{ $displayName }} · {{ $ui.footer }}</span><span>{{ $ui.license }} <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></span></div></footer>
+  <div class="cheese-egg" id="chiz-surprise" role="status" aria-live="polite" aria-atomic="true" hidden></div>
 </body>
 </html>

@@ -15,7 +15,7 @@ The English and French home, research, experience and teaching pages use the `ac
 
 ## Edit presentation
 
-`layouts/_partials/academic/page.html` contains the shared page structure. `assets/css/academic.css` contains the responsive styles and color palette. There are no new runtime JavaScript dependencies.
+`layouts/_partials/academic/page.html` contains the shared page structure. `assets/css/academic.css` contains the responsive styles and color palette. The small, dependency-free `assets/js/chiz.js` reveals a cheese surprise when visitors type `CHIZ` outside editable fields, or visit a page with `#chiz`. Escape dismisses it; otherwise it closes automatically. The cheese icons live in `static/favicon.ico`, `static/favicon-32x32.png` and `static/apple-touch-icon.png`.
 
 The existing Blox section settings remain in the content files, so the original pages can be restored by changing their type back to `landing` and removing the custom homepage layout files.
 
