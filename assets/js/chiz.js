@@ -1,4 +1,11 @@
 (() => {
+  const normalTitle = document.title;
+  function updateTabTitle() {
+    document.title = document.hidden ? 'Come back !!!!' : normalTitle;
+  }
+  document.addEventListener('visibilitychange', updateTabTitle);
+  updateTabTitle();
+
   const cheese = document.getElementById('chiz-surprise');
   if (!cheese) return;
 
