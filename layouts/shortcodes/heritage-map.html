@@ -1,0 +1,11 @@
+<figure class="heritage-map" data-map-view="kabylie" aria-labelledby="heritage-map-title">
+  <div class="heritage-map-heading"><div><p class="eyebrow">Situer les lieux</p><h2 id="heritage-map-title">Deux regards sur l’Afrique du Nord</h2></div>
+    <div class="heritage-map-controls" role="group" aria-label="Choisir les repères de la carte" hidden><button type="button" data-map-choice="kabylie" aria-pressed="true">La Kabylie</button><button type="button" data-map-choice="massyles" aria-pressed="false">Les Massyles</button></div>
+  </div>
+  {{ $map := resources.Get "images/heritage-map.svg" }}{{ $map.Content | safeHTML }}
+  <figcaption>
+    <p data-map-caption="kabylie"><span class="map-key" aria-hidden="true"></span><strong>La Kabylie aujourd’hui.</strong> Une région du nord de l’Algérie, entre littoral et massifs montagneux. Le halo situe la région à titre indicatif ; il n’en trace pas les limites.</p>
+    <p data-map-caption="massyles" hidden><span class="map-key ancient" aria-hidden="true"></span><strong>La Numidie antique.</strong> Les noms situent les deux ensembles numides, sans reconstituer leurs frontières, qui ont évolué. Les contours des pays actuels servent uniquement de repères.</p>
+    <p class="map-credit">Fond cartographique : <a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a> (domaine public). Repères historiques : <a href="https://fr.wikipedia.org/wiki/Massyles">Massyles</a> et <a href="https://journals.openedition.org/encyclopedieberbere/493">Encyclopédie berbère</a>.</p>
+  </figcaption>
+</figure>

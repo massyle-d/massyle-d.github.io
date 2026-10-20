@@ -12,6 +12,7 @@ The English and French home, research, experience and teaching pages use the `ac
 - CV: `static/uploads/CV_Massyle_DENDENE.pdf`, shared by both site languages. The older `CV_mass_eng.pdf` and `CV_mass_fr.pdf` URLs serve identical copies to preserve existing links. Replace all three together when updating the CV. Update the `?v=` suffix in both `cv_path` values in `data/academic.yaml` with the first 12 characters of the new PDF's SHA-256 hash so browsers fetch the latest version.
 - Education links: `institution_url` in each author's `education` list. IMT Atlantique uses `/en` for the English site and `/fr` for the French site.
 - Portrait: `content/authors/admin/avatar.png`. Hugo creates a smaller WebP image shared by both languages.
+- Personal heritage page (French only): `content/fr/origines/index.md`, reached from the linked word Kabyle in the French experience page. Keep it out of menus, page lists, feeds and sitemaps with `build.list: never`; the layout adds `noindex`. The language diagram, map and timeline use the `heritage-*` shortcodes. The local SVG map uses Natural Earth 1:50m country geometry (public domain); the Kabylie halo and ancient names are approximate locators, not territorial boundaries. `assets/js/heritage.js` switches its two views without external requests.
 
 ## Edit presentation
 
