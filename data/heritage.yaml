@@ -1,0 +1,104 @@
+en:
+  path: /origins/
+  family_caption: Kabyle within its language family
+  family_entries:
+    - label: Family
+      title: Afroasiatic languages
+    - label: Branch
+      title: Amazigh languages
+      note: or Berber languages
+    - label: Language
+      title: Kabyle
+      note: taqbaylit
+      note_lang: kab
+  map_eyebrow: Finding our bearings
+  map_heading: Two views of North Africa
+  map_controls: Choose the map view
+  kabylie: Kabylia
+  massyles: The Massylii
+  kabylie_caption_title: Kabylia today.
+  kabylie_caption: A region in northern Algeria, between the Mediterranean coast and mountain ranges. The halo gives an approximate location; it does not mark the region’s boundaries.
+  massyles_caption_title: Ancient Numidia.
+  massyles_caption: The names indicate the two Numidian groups without reconstructing their changing boundaries. Modern country outlines are shown only for orientation.
+  map_credit: Base map
+  public_domain: public domain
+  history_credit: Historical references
+  massyles_wiki: https://en.wikipedia.org/wiki/Massylii
+  massyles_reference: Massylii
+  encyclopedia: Encyclopédie berbère (in French)
+  map_svg_title: Kabylia and ancient Numidian landmarks in North Africa
+  map_svg_desc: Kabylia lies in northern Algeria, around Tizi Ouzou and Béjaïa. In antiquity, the Massylii occupied eastern Numidia and the Masaesyli the west. Ancient boundaries are not shown. Cirta is present-day Constantine; Carthage is near Tunis.
+  mediterranean: Mediterranean Sea
+  algeria: ALGERIA
+  tunisia: TUNISIA
+  algiers: Algiers
+  kabylie_label: Kabylia
+  massyles_label: Massylii
+  masaesyles_label: Masaesyli
+  western_numidia: Western Numidia
+  eastern_numidia: Eastern Numidia
+  timeline_caption: A few moments in history
+  timeline:
+    - date: 3rd century BCE
+      title: The Numidian kingdoms
+      description: The Massylii in the east, the Masaesyli in the west. Gaia is one of the Massylian kings.
+    - date: 203–202 BCE
+      title: The rise of Masinissa
+      description: Allied with Rome, he defeats Syphax and then helps secure victory at Zama.
+    - date: 2nd century BCE
+      title: A united kingdom
+      description: Under Masinissa, the unification and development of Numidia are consolidated.
+  further_reading: Further reading
+  livius_label: Masinissa, by Jona Lendering
+fr:
+  path: /fr/origines/
+  family_caption: Le kabyle dans sa famille linguistique
+  family_entries:
+    - label: Famille
+      title: Langues afro-asiatiques
+    - label: Branche
+      title: Langues amazighes
+      note: ou berbères
+    - label: Langue
+      title: Kabyle
+      note: taqbaylit
+      note_lang: kab
+  map_eyebrow: Situer les lieux
+  map_heading: Deux regards sur l’Afrique du Nord
+  map_controls: Choisir les repères de la carte
+  kabylie: La Kabylie
+  massyles: Les Massyles
+  kabylie_caption_title: La Kabylie aujourd’hui.
+  kabylie_caption: Une région du nord de l’Algérie, entre littoral et massifs montagneux. Le halo situe la région à titre indicatif ; il n’en trace pas les limites.
+  massyles_caption_title: La Numidie antique.
+  massyles_caption: Les noms situent les deux ensembles numides, sans reconstituer leurs frontières, qui ont évolué. Les contours des pays actuels servent uniquement de repères.
+  map_credit: Fond cartographique
+  public_domain: domaine public
+  history_credit: Repères historiques
+  massyles_wiki: https://fr.wikipedia.org/wiki/Massyles
+  massyles_reference: Massyles
+  encyclopedia: Encyclopédie berbère
+  map_svg_title: Kabylie et repères de la Numidie antique en Afrique du Nord
+  map_svg_desc: La Kabylie se situe dans le nord de l’Algérie, autour de Tizi Ouzou et Béjaïa. Dans l’Antiquité, les Massyles occupaient l’est de la Numidie, les Masaesyles l’ouest. Les limites antiques ne sont pas représentées. Cirta correspond à Constantine ; Carthage se situe près de Tunis.
+  mediterranean: Mer Méditerranée
+  algeria: ALGÉRIE
+  tunisia: TUNISIE
+  algiers: Alger
+  kabylie_label: Kabylie
+  massyles_label: Massyles
+  masaesyles_label: Masaesyles
+  western_numidia: Numidie occidentale
+  eastern_numidia: Numidie orientale
+  timeline_caption: Quelques repères dans le temps
+  timeline:
+    - date: III<sup>e</sup> siècle av. J.-C.
+      title: Les royaumes numides
+      description: Massyles à l’est, Masaesyles à l’ouest. Gaïa est l’un des rois massyles.
+    - date: 203–202 av. J.-C.
+      title: Le tournant de Massinissa
+      description: Allié de Rome, il prend l’avantage sur Syphax, puis participe à la victoire de Zama.
+    - date: II<sup>e</sup> siècle av. J.-C.
+      title: Un royaume réuni
+      description: Sous Massinissa, l’unification et le développement de la Numidie se consolident.
+  further_reading: Pour approfondir
+  livius_label: Massinissa, par Jona Lendering (en anglais)

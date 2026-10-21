@@ -2,6 +2,8 @@
 title: Mes racines
 type: academic
 academic_page: origins
+translationKey: heritage
+eyebrow: Kabylie · Langue · Histoire
 description: 'Une langue, une région et un prénom : mes origines kabyles et l’histoire des Massyles.'
 intro: Une langue, une région et un prénom. Une parenthèse plus personnelle pour partager mes origines kabyles et l’histoire à laquelle mon prénom fait écho.
 build:

@@ -6,6 +6,16 @@
 {{- $isTeaching := eq .Params.academic_page "teaching" -}}
 {{- $isResearch := eq .Params.academic_page "research" -}}
 {{- $isOrigins := eq .Params.academic_page "origins" -}}
+{{- $translations := .AllTranslations -}}
+{{- if $isOrigins -}}
+  {{- $translations = slice -}}
+  {{- /* The English content directory also contains the French source directory. Keep only each language's canonical heritage page. */ -}}
+  {{- range .AllTranslations -}}
+    {{- if eq .RelPermalink (index site.Data.heritage .Language.Lang).path -}}
+      {{- $translations = $translations | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- $englishHome := index site.Home.AllTranslations 0 -}}
 {{- $englishAuthor := $englishHome.Site.GetPage "/authors/admin" -}}
 {{- $portrait := $englishAuthor.Resources.GetMatch "avatar*" -}}
@@ -25,7 +35,7 @@
   <link rel="icon" type="image/png" href="{{ "favicon-32x32.png" | relURL }}" sizes="32x32">
   <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" sizes="180x180">
   <link rel="canonical" href="{{ .Permalink }}">
-  {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
+  {{ range $translations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:description" content="{{ $description }}">
   <meta property="og:type" content="website">
@@ -50,7 +60,7 @@
         <a href="{{ $ui.cv_path | relURL }}">{{ $ui.cv }} <span aria-hidden="true">↗</span></a>
       </nav>
       <nav class="language-nav" aria-label="{{ $ui.languages }}">
-        {{ range .AllTranslations }}<a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" {{ if eq .Language.Lang $.Language.Lang }}aria-current="true"{{ end }}>{{ upper .Language.Lang }}</a>{{ end }}
+        {{ range $translations }}<a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" {{ if eq .Language.Lang $.Language.Lang }}aria-current="true"{{ end }}>{{ upper .Language.Lang }}</a>{{ end }}
       </nav>
     </div>
   </header>
@@ -82,7 +92,7 @@
     </div>
     <section class="contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">Contact</p><h2 id="contact-title">{{ $ui.contact }}</h2><p>{{ $ui.contact_text }}</p></div><a class="email-link" href="mailto:massyle.dendene@polytechnique.edu">massyle.dendene@polytechnique.edu <span aria-hidden="true">↗</span></a></section>
   {{ else }}
-    <header class="page-heading"><p class="eyebrow">{{ if $isOrigins }}Kabylie · Langue · Histoire{{ else }}{{ $displayName }}{{ end }}</p><h1>{{ .Title }}</h1>{{ if $isExperience }}<p class="page-intro">{{ $ui.experience_intro }}</p>{{ else if $isResearch }}<p class="page-intro">{{ $ui.research_intro }}</p>{{ else if $isOrigins }}<p class="page-intro">{{ .Params.intro }}</p>{{ end }}</header>
+    <header class="page-heading"><p class="eyebrow">{{ if $isOrigins }}{{ .Params.eyebrow }}{{ else }}{{ $displayName }}{{ end }}</p><h1>{{ .Title }}</h1>{{ if $isExperience }}<p class="page-intro">{{ $ui.experience_intro }}</p>{{ else if $isResearch }}<p class="page-intro">{{ $ui.research_intro }}</p>{{ else if $isOrigins }}<p class="page-intro">{{ .Params.intro }}</p>{{ end }}</header>
     {{ if $isExperience }}
     <div class="experience-columns">
       <section aria-labelledby="work-title"><h2 id="work-title">{{ $ui.work }}</h2><ol class="timeline">{{ range $author.Params.work }}<li><p class="date">{{ (time.AsTime .date_start).Format "2006" }} — {{ with .date_end }}{{ (time.AsTime .).Format "2006" }}{{ else }}{{ $ui.current }}{{ end }}</p><h3>{{ .position }}</h3><p class="institution">{{ if .company_url }}<a href="{{ .company_url }}">{{ .company_name }}</a>{{ else }}{{ .company_name }}{{ end }}</p><div class="prose">{{ .summary | markdownify }}</div></li>{{ end }}</ol></section>

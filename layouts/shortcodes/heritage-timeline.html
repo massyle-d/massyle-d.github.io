@@ -1,9 +1,8 @@
+{{- $h := index site.Data.heritage .Page.Language.Lang -}}
 <figure class="heritage-timeline" aria-labelledby="numidia-timeline-caption">
-  <figcaption id="numidia-timeline-caption">Quelques repères dans le temps</figcaption>
+  <figcaption id="numidia-timeline-caption">{{ $h.timeline_caption }}</figcaption>
   <ol>
-    <li><p class="heritage-date">III<sup>e</sup> siècle av. J.-C.</p><h3>Les royaumes numides</h3><p>Massyles à l’est, Masaesyles à l’ouest. Gaïa est l’un des rois massyles.</p></li>
-    <li><p class="heritage-date">203–202 av. J.-C.</p><h3>Le tournant de Massinissa</h3><p>Allié de Rome, il prend l’avantage sur Syphax, puis participe à la victoire de Zama.</p></li>
-    <li><p class="heritage-date">II<sup>e</sup> siècle av. J.-C.</p><h3>Un royaume réuni</h3><p>Sous Massinissa, l’unification et le développement de la Numidie se consolident.</p></li>
+    {{ range $h.timeline }}<li><p class="heritage-date">{{ .date | safeHTML }}</p><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}
   </ol>
-  <p class="heritage-timeline-source">Pour approfondir : <a href="https://www.livius.org/articles/person/massinissa/">Massinissa, par Jona Lendering (en anglais)</a>.</p>
+  <p class="heritage-timeline-source">{{ $h.further_reading }} : <a href="https://www.livius.org/articles/person/massinissa/">{{ $h.livius_label }}</a>.</p>
 </figure>
