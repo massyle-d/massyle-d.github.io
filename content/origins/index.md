@@ -17,6 +17,8 @@ build:
 
 Kabylia is a region of mountains and Mediterranean coastline, with **Tizi Ouzou** and **Béjaïa** as two important landmarks. The Djurdjura mountains and the Soummam valley are part of its landscape. [Read more about Kabylia ↗](https://en.wikipedia.org/wiki/Kabylia)
 
+{{< heritage-gallery >}}
+
 {{< heritage-family >}}
 
 Kabyle belongs to the Amazigh branch of the Afroasiatic language family. Its oral tradition now coexists with a body of written work, notably using an adapted Latin alphabet. Tifinagh is also present as a writing system and cultural symbol in the Amazigh world. [Berber at Inalco (in French) ↗](https://www.inalco.fr/langues/kabyle-berbere)

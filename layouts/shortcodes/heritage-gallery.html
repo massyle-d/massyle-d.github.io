@@ -1,0 +1,20 @@
+{{- $lang := .Page.Language.Lang -}}
+{{- $h := index site.Data.heritage $lang -}}
+{{- $photos := site.Data.heritage_photos -}}
+<section class="heritage-gallery" aria-roledescription="{{ $h.gallery_role }}" aria-labelledby="heritage-gallery-title">
+  <header><h2 id="heritage-gallery-title">{{ $h.gallery_heading }}</h2><p>{{ $h.gallery_intro }}</p></header>
+  <div class="heritage-gallery-track" id="heritage-gallery-track" tabindex="0" aria-label="{{ $h.gallery_track }}">
+    {{ range $index, $photo := $photos }}
+    {{ $image := resources.Get (printf "images/heritage-photos/%s" .file) }}
+    {{ $small := $image.Resize "480x webp q82" }}{{ $medium := $image.Resize "960x webp q84" }}
+    {{ $description := index $photo $lang }}
+    <div class="heritage-gallery-slide" role="group" aria-roledescription="{{ $h.gallery_slide }}" aria-label="{{ printf $h.gallery_position (add $index 1) (len $photos) }}">
+      <figure><div class="heritage-gallery-stage"><img src="{{ $image.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $medium.RelPermalink }} {{ $medium.Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w" sizes="(max-width: 620px) calc(100vw - 40px), (max-width: 1000px) 85vw, 900px" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $description }}" loading="lazy" decoding="async"></div><figcaption>{{ $description }}</figcaption></figure>
+    </div>
+    {{ end }}
+  </div>
+  <div class="heritage-gallery-footer" hidden>
+    <div class="heritage-gallery-dots" role="group" aria-label="{{ $h.gallery_heading }}">{{ range $index, $photo := $photos }}<button type="button" data-photo-index="{{ $index }}" aria-label="{{ $h.gallery_go }} {{ add $index 1 }}" aria-controls="heritage-gallery-track"{{ if eq $index 0 }} aria-current="true"{{ end }}><span aria-hidden="true"></span></button>{{ end }}</div>
+    <div class="heritage-gallery-controls"><button type="button" data-photo-previous aria-label="{{ $h.gallery_previous }}" aria-controls="heritage-gallery-track" disabled><span aria-hidden="true">←</span></button><span class="heritage-gallery-count" role="status" aria-live="polite" aria-atomic="true">1 / {{ len $photos }}</span><button type="button" data-photo-next aria-label="{{ $h.gallery_next }}" aria-controls="heritage-gallery-track"><span aria-hidden="true">→</span></button></div>
+  </div>
+</section>

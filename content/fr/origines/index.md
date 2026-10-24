@@ -17,6 +17,8 @@ Le **kabyle**, ou *taqbaylit*, est une langue amazighe (berbère), parlée en **
 
 La Kabylie est une région de montagnes et de littoral méditerranéen, dont **Tizi Ouzou** et **Béjaïa** sont deux repères importants. Le massif du Djurdjura et la vallée de la Soummam font partie de ses paysages. [En savoir plus sur la Kabylie ↗](https://fr.wikipedia.org/wiki/Kabylie)
 
+{{< heritage-gallery >}}
+
 {{< heritage-family >}}
 
 Le kabyle appartient à la branche amazighe de la famille des langues afro-asiatiques. Sa tradition orale côtoie aujourd’hui une production écrite, notamment en alphabet latin adapté. Le tifinagh est également présent comme écriture et symbole culturel dans le monde amazigh. [Le berbère à l’Inalco ↗](https://www.inalco.fr/langues/kabyle-berbere)

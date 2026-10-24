@@ -1,4 +1,13 @@
 en:
+  gallery_heading: Landscapes and memories
+  gallery_intro: A few photographs to bring these landscapes into view.
+  gallery_role: carousel
+  gallery_slide: slide
+  gallery_track: Photographs. Use the left and right arrow keys to browse.
+  gallery_previous: Previous photo
+  gallery_next: Next photo
+  gallery_go: Go to photo
+  gallery_position: Photo %d of %d
   path: /origins/
   family_caption: Kabyle within its language family
   family_entries:
@@ -51,6 +60,15 @@ en:
   further_reading: Further reading
   livius_label: Masinissa, by Jona Lendering
 fr:
+  gallery_heading: Paysages et souvenirs
+  gallery_intro: Quelques photographies pour prolonger cette découverte en images.
+  gallery_role: carrousel
+  gallery_slide: diapositive
+  gallery_track: Photographies. Utilisez les flèches gauche et droite pour les parcourir.
+  gallery_previous: Photo précédente
+  gallery_next: Photo suivante
+  gallery_go: Voir la photo
+  gallery_position: Photo %d sur %d
   path: /fr/origines/
   family_caption: Le kabyle dans sa famille linguistique
   family_entries:
