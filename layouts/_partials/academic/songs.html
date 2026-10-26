@@ -1,7 +1,6 @@
 <div class="songs-page">
   <div class="songs-introduction">
     <p class="songs-byline">Transcription et traduction française : <strong>Massyle DENDENE</strong></p>
-    <p>Ces textes reflètent mon écoute et mes choix de traduction. Les passages marqués d’un <span class="transcription-doubt" aria-hidden="true">?</span> correspondent à mes hésitations de transcription et restent à vérifier.</p>
     <p><a href="https://fr.wikipedia.org/wiki/Idir">Découvrir Idir sur Wikipédia <span aria-hidden="true">↗</span></a></p>
     <nav class="songs-index" aria-label="Choisir une chanson">{{ range site.Data.kabyle_songs }}<a href="#{{ .id }}"><span lang="kab">{{ .title }}</span><span class="song-index-subtitle">{{ .subtitle }}</span><span aria-hidden="true">↓</span></a>{{ end }}</nav>
   </div>
@@ -16,7 +15,7 @@
     <section class="song-strophe" aria-label="Strophe {{ add $index 1 }}">
       <p class="song-strophe-label" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</p>
       <ol class="song-verses" start="{{ (index $stanza 0).number }}">
-        {{ range $stanza }}<li><div class="lyric-pair"><p class="lyric-original" lang="kab">{{ .kabyle }}{{ if .doubt }}<sup class="transcription-doubt"><span aria-hidden="true">?</span><span class="song-sr-only"> — transcription à vérifier</span></sup>{{ end }}</p><p class="lyric-translation" lang="fr">{{ .french }}</p></div></li>{{ end }}
+        {{ range $stanza }}<li><div class="lyric-pair"><p class="lyric-original" lang="kab">{{ .kabyle }}</p><p class="lyric-translation" lang="fr">{{ .french }}</p></div></li>{{ end }}
       </ol>
     </section>
     {{ end }}

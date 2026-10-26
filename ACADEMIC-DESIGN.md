@@ -4,7 +4,7 @@ The English and French home, research, experience and teaching pages use the `ac
 
 ## Edit content
 
-- Kabyle songs (French page only): `content/fr/chansons-kabyles/index.md` and `data/kabyle_songs.json`, linked from the French heritage page. The song partial preserves the supplied Kabyle transcription, French translation, stanza grouping, verse numbers and `doubt` flags (shown as question marks). Both YouTube links were matched to the track titles using YouTube oEmbed metadata. The page is unlisted/noindex like the heritage pages, and has no English translation.
+- Kabyle songs (French page only): `content/fr/chansons-kabyles/index.md` and `data/kabyle_songs.json`, linked from the French heritage page. The song partial preserves the supplied Kabyle transcription, French translation, stanza grouping and verse numbers. Original `doubt` flags remain in the source data only; the page displays neither markers nor a note about transcription uncertainties. Both YouTube links were matched to the track titles using YouTube oEmbed metadata. The page is unlisted/noindex like the heritage pages, and has no English translation.
 
 - Biography, affiliations, social profiles, education and professional experience: `content/authors/admin/_index.md` and `content/fr/authors/admin/_index.md`.
 - Research description and acknowledgements: the markdown section of `content/_index.md` and `content/fr/_index.md`.
