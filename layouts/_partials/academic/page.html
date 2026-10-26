@@ -30,19 +30,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ $displayName }}</title>
   <meta name="description" content="{{ $description }}">
-  {{ if or $isOrigins $isSongs }}<meta name="robots" content="noindex, follow">{{ end }}
+  {{ if or $isOrigins (and $isSongs (not .Params.indexable)) }}<meta name="robots" content="noindex, follow">{{ else if $isSongs }}<meta name="robots" content="index, follow, max-image-preview:large">{{ end }}
   <meta name="theme-color" content="#faf9f6">
   <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
   <link rel="icon" type="image/png" href="{{ "favicon-32x32.png" | relURL }}" sizes="32x32">
   <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" sizes="180x180">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range $translations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
-  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:title" content="{{ .Params.seo_title | default .Title }}">
   <meta property="og:description" content="{{ $description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:image" content="{{ "uploads/massyle-dendene.png" | absURL }}">
   <meta name="twitter:card" content="summary">
+  {{ if $isSongs }}<meta name="twitter:title" content="{{ .Params.seo_title | default .Title }}"><meta name="twitter:description" content="{{ $description }}">{{ partial "academic/song-metadata.html" . }}{{ end }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   <script src="{{ $chiz.RelPermalink }}" integrity="{{ $chiz.Data.Integrity }}" defer></script>
   {{ if $isOrigins }}{{ $heritage := resources.Get "js/heritage.js" | minify | fingerprint }}<script src="{{ $heritage.RelPermalink }}" integrity="{{ $heritage.Data.Integrity }}" defer></script>{{ end }}

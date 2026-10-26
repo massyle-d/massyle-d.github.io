@@ -10,11 +10,6 @@ design:
 sections:
   - block: markdown
     content:
-      title: Sharing mathematics in the classroom
-      text: |-
-        I teach tutorials in probability and financial mathematics as a teaching assistant at ENSAE Paris.
-  - block: markdown
-    content:
       title: 'Academic Year 2026–2027'
       text: |-
         - **Probability Theory (1y ENSAE, L3, 28.5h)** — Course taught by [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).

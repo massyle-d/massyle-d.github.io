@@ -1,0 +1,10 @@
+{{- $items := slice -}}
+{{- $page := . -}}
+{{- range $index, $song := site.Data.kabyle_songs -}}
+  {{- $songURL := printf "%s#%s" $page.Permalink .id -}}
+  {{- $recording := dict "@type" "MusicRecording" "name" .title "alternateName" .subtitle "inLanguage" "kab" "byArtist" (dict "@type" "Person" "name" .artist "sameAs" .artist_url) "sameAs" .youtube -}}
+  {{- $work := dict "@type" "CreativeWork" "name" (printf "%s — transcription kabyle et traduction française" .title) "url" $songURL "inLanguage" (slice "kab" "fr") "creditText" "Transcription et traduction française : Massyle DENDENE" "about" $recording -}}
+  {{- $items = $items | append (dict "@type" "ListItem" "position" (add $index 1) "item" $work) -}}
+{{- end -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "CollectionPage" "@id" (printf "%s#webpage" .Permalink) "url" .Permalink "name" .Params.seo_title "description" .Description "inLanguage" (slice "fr" "kab") "keywords" .Params.keywords "author" (dict "@type" "Person" "name" "Massyle DENDENE" "url" site.Home.Permalink) "mainEntity" (dict "@type" "ItemList" "numberOfItems" (len $items) "itemListElement" $items) -}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>

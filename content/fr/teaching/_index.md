@@ -10,11 +10,6 @@ design:
 sections:
   - block: markdown
     content:
-      title: Partager les mathématiques
-      text: |-
-        J’assure des travaux dirigés en probabilités et en mathématiques financières à l’ENSAE Paris.
-  - block: markdown
-    content:
       title: 'Année académique 2026–2027'
       text: |-
         - **Théorie des probabilités (1A ENSAE, 28,5h)** — Cours enseigné par [Victor-Emmanuel Brunel](https://vebrunel.wordpress.com/).

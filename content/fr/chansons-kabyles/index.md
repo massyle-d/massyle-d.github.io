@@ -1,10 +1,19 @@
 ---
-title: Chansons kabyles
+title: 'Chansons kabyles : paroles et traductions'
 type: academic
 academic_page: songs
 eyebrow: Langue · Musique · Transmission
-description: Chansons en kabyle, transcrites et traduites en français par Massyle DENDENE.
-intro: Des chansons en kabyle que j’ai transcrites et traduites en français, pour partager les mots autant que la musique.
+description: 'Paroles kabyles et traductions françaises de chansons d’Idir : Adrar Inu (Ma montagne) et Targit (Un rêve), par Massyle DENDENE.'
+seo_title: 'Chansons kabyles d’Idir : paroles et traductions françaises | Massyle DENDENE'
+intro: 'Des chansons d’Idir en kabyle, transcrites et traduites en français par mes soins : Adrar Inu (Ma montagne) et Targit (Un rêve).'
+indexable: true
+keywords:
+  - traduction kabyle français
+  - chansons kabyles
+  - paroles Idir
+  - Adrar Inu traduction
+  - Targit traduction
+  - transcription kabyle
 build:
   list: never
   render: always
