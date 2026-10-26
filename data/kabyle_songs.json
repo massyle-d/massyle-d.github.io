@@ -1,0 +1,360 @@
+[
+  {
+    "id": "adrar-inu",
+    "title": "Adrar Inu",
+    "subtitle": "Ma montagne",
+    "youtube": "https://www.youtube.com/watch?v=AH3nUkzlXTY",
+    "stanzas": [
+      [
+        {
+          "number": 1,
+          "kabyle": "Ya lferḥ ameqran",
+          "french": "Quelle immense joie !",
+          "doubt": true
+        },
+        {
+          "number": 2,
+          "kabyle": "Imi d-yuɣal s axxam",
+          "french": "Quand il est revenu à la maison,",
+          "doubt": false
+        },
+        {
+          "number": 3,
+          "kabyle": "Ruḥen akk yiɣeblan",
+          "french": "tous les soucis se sont envolés.",
+          "doubt": false
+        },
+        {
+          "number": 4,
+          "kabyle": "Tbeddel ddunit fell-i",
+          "french": "Le monde a changé pour moi.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 5,
+          "kabyle": "Ya argaz-im baba-m",
+          "french": "Ton mari et ton père,",
+          "doubt": true
+        },
+        {
+          "number": 6,
+          "kabyle": "S wudem isehan",
+          "french": "le visage apaisé ;",
+          "doubt": true
+        },
+        {
+          "number": 7,
+          "kabyle": "Ger medden ara d-nban",
+          "french": "nous paraîtrons parmi les gens,",
+          "doubt": true
+        },
+        {
+          "number": 8,
+          "kabyle": "Mmi-m ger-aneɣ ad yili",
+          "french": "ton fils sera parmi nous.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 9,
+          "kabyle": "Taftilt igenwan",
+          "french": "La lumière des cieux",
+          "doubt": true
+        },
+        {
+          "number": 10,
+          "kabyle": "Tuɣ-d yal amkan",
+          "french": "s’est répandue partout.",
+          "doubt": true
+        },
+        {
+          "number": 11,
+          "kabyle": "Mi tesselef i llufan",
+          "french": "Quand elle a caressé le nourrisson,",
+          "doubt": true
+        },
+        {
+          "number": 12,
+          "kabyle": "Taḍsa deg wudem-is tuli",
+          "french": "un sourire est monté sur son visage.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 13,
+          "kabyle": "A mmi-m abahan",
+          "french": "Ô ton bel enfant,",
+          "doubt": true
+        },
+        {
+          "number": 14,
+          "kabyle": "Aḥya dheb areqman",
+          "french": "ô joyau aux mille couleurs !",
+          "doubt": true
+        },
+        {
+          "number": 15,
+          "kabyle": "A nraǧu deg yiberdan",
+          "french": "Nous attendrons sur les chemins",
+          "doubt": true
+        },
+        {
+          "number": 16,
+          "kabyle": "Baba-k ma d-yebdu tikli",
+          "french": "que ton père se mette en route.",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 17,
+          "kabyle": "Ɣas d yiṭij yerɣan",
+          "french": "Même sous un soleil brûlant,",
+          "doubt": false
+        },
+        {
+          "number": 18,
+          "kabyle": "Neɣ d aḍfel yessan",
+          "french": "ou quand la neige est tombée,",
+          "doubt": true
+        },
+        {
+          "number": 19,
+          "kabyle": "Ɣas d azru yeḥfan",
+          "french": "même sur une pierre usée,",
+          "doubt": true
+        },
+        {
+          "number": 20,
+          "kabyle": "Ḥemmleɣ-k, a yadrar-inu",
+          "french": "je t’aime, ô ma montagne.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 21,
+          "kabyle": "S ddaw igenwan",
+          "french": "Sous les cieux,",
+          "doubt": false
+        },
+        {
+          "number": 22,
+          "kabyle": "Yekcem ger yetran",
+          "french": "elle a rejoint les étoiles.",
+          "doubt": true
+        },
+        {
+          "number": 23,
+          "kabyle": "Nettargu afussen",
+          "french": "Nous rêvons de jours meilleurs,",
+          "doubt": true
+        },
+        {
+          "number": 24,
+          "kabyle": "I deg lḥif ur d-yettnulfu",
+          "french": "où la misère ne reviendra plus.",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 25,
+          "kabyle": "Aḥya akal imeɣban",
+          "french": "Ô terre des pauvres,",
+          "doubt": true
+        },
+        {
+          "number": 26,
+          "kabyle": "Ur yelli win yeṛwan",
+          "french": "personne n’y est rassasié.",
+          "doubt": false
+        },
+        {
+          "number": 27,
+          "kabyle": "Ay kelxaɣ zzman",
+          "french": "Ah, comme le temps nous a trompés !",
+          "doubt": true
+        },
+        {
+          "number": 28,
+          "kabyle": "Amzun nebwi ddeɛwessu",
+          "french": "Comme si nous portions une malédiction.",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 29,
+          "kabyle": "A nnif i ɣ-yeččan",
+          "french": "Ô fierté qui nous ronge !",
+          "doubt": false
+        },
+        {
+          "number": 30,
+          "kabyle": "Aḥya ttar aberkan",
+          "french": "Ô sombre vengeance,",
+          "doubt": false
+        },
+        {
+          "number": 31,
+          "kabyle": "I nettarra s wurfan",
+          "french": "à laquelle nous répondons par la colère,",
+          "doubt": true
+        },
+        {
+          "number": 32,
+          "kabyle": "Imi nɣil deg-s dwa ḥellu",
+          "french": "croyant y trouver un remède.",
+          "doubt": true
+        }
+      ]
+    ],
+    "artist": "Idir",
+    "artist_url": "https://fr.wikipedia.org/wiki/Idir"
+  },
+  {
+    "id": "targit",
+    "title": "Targit",
+    "subtitle": "Un rêve",
+    "artist": "Idir",
+    "artist_url": "https://fr.wikipedia.org/wiki/Idir",
+    "youtube": "https://www.youtube.com/watch?v=TV_eb-_RTyQ",
+    "stanzas": [
+      [
+        {
+          "number": 1,
+          "kabyle": "Urgaɣ ɣlint akk tlisa",
+          "french": "J’ai rêvé que toutes les frontières étaient tombées.",
+          "doubt": false
+        },
+        {
+          "number": 2,
+          "kabyle": "Imdanen uɣalen d atmaten",
+          "french": "Les êtres humains étaient devenus des frères.",
+          "doubt": false
+        },
+        {
+          "number": 3,
+          "kabyle": "Nefka-as nnuba i lehna",
+          "french": "Nous avons donné son tour à la paix.",
+          "doubt": false
+        },
+        {
+          "number": 4,
+          "kabyle": "Tuɣ tegmat deg wulawen",
+          "french": "La fraternité a pris place dans les cœurs.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 5,
+          "kabyle": "Nga lǧennet di lqaɛa",
+          "french": "Nous avons fait de la terre un paradis.",
+          "doubt": true
+        },
+        {
+          "number": 6,
+          "kabyle": "Nerra i teẓgi isaffen",
+          "french": "Nous avons fait couler des rivières dans la forêt.",
+          "doubt": false
+        },
+        {
+          "number": 7,
+          "kabyle": "Yegma ujeǧǧig di lexla",
+          "french": "Une fleur a poussé dans les champs.",
+          "doubt": false
+        },
+        {
+          "number": 8,
+          "kabyle": "Ifrax zzin-d ad cewqen",
+          "french": "Les oiseaux sont venus chanter.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 9,
+          "kabyle": "Nesfeḍ imeṭṭi i win yettrun",
+          "french": "Nous avons essuyé les larmes de celui qui pleurait.",
+          "doubt": false
+        },
+        {
+          "number": 10,
+          "kabyle": "Nerfed win yellan yeɣli",
+          "french": "Nous avons relevé celui qui était tombé.",
+          "doubt": false
+        },
+        {
+          "number": 11,
+          "kabyle": "Nerẓa aɛekkaz i wemcum",
+          "french": "Nous avons brisé le bâton du méchant.",
+          "doubt": false
+        },
+        {
+          "number": 12,
+          "kabyle": "Neldi abrid i tayri",
+          "french": "Nous avons ouvert la voie à l’amour.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 13,
+          "kabyle": "Nekkes tagut yellan ɣef wallen",
+          "french": "Nous avons dissipé la brume qui couvrait les yeux.",
+          "doubt": false
+        },
+        {
+          "number": 14,
+          "kabyle": "Iban-d yiṭij deg igenni",
+          "french": "Le soleil est apparu dans le ciel.",
+          "doubt": false
+        },
+        {
+          "number": 15,
+          "kabyle": "Iban-d ubrid yessufuɣen",
+          "french": "Le chemin de la délivrance est apparu,",
+          "doubt": false
+        },
+        {
+          "number": 16,
+          "kabyle": "Ɣer tafat, ɣer tlelli",
+          "french": "vers la lumière et la liberté.",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 17,
+          "kabyle": "Ayagi yezmer ad yeḍru",
+          "french": "Tout cela peut arriver.",
+          "doubt": false
+        },
+        {
+          "number": 18,
+          "kabyle": "A yetma, mačči d awezɣi",
+          "french": "Mes frères, ce n’est pas impossible.",
+          "doubt": false
+        },
+        {
+          "number": 19,
+          "kabyle": "Azekka walaɣ-t ad ileḥḥu",
+          "french": "J’ai vu demain s’avancer,",
+          "doubt": true
+        },
+        {
+          "number": 20,
+          "kabyle": "Ma tefra targit-agi",
+          "french": "si ce rêve se réalise.",
+          "doubt": false
+        }
+      ]
+    ]
+  }
+]

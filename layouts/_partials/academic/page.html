@@ -6,6 +6,7 @@
 {{- $isTeaching := eq .Params.academic_page "teaching" -}}
 {{- $isResearch := eq .Params.academic_page "research" -}}
 {{- $isOrigins := eq .Params.academic_page "origins" -}}
+{{- $isSongs := eq .Params.academic_page "songs" -}}
 {{- $translations := .AllTranslations -}}
 {{- if $isOrigins -}}
   {{- $translations = slice -}}
@@ -29,7 +30,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ $displayName }}</title>
   <meta name="description" content="{{ $description }}">
-  {{ if $isOrigins }}<meta name="robots" content="noindex, follow">{{ end }}
+  {{ if or $isOrigins $isSongs }}<meta name="robots" content="noindex, follow">{{ end }}
   <meta name="theme-color" content="#faf9f6">
   <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
   <link rel="icon" type="image/png" href="{{ "favicon-32x32.png" | relURL }}" sizes="32x32">
@@ -93,7 +94,7 @@
     </div>
     <section class="contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">Contact</p><h2 id="contact-title">{{ $ui.contact }}</h2><p>{{ $ui.contact_text }}</p></div><a class="email-link" href="mailto:massyle.dendene@polytechnique.edu">massyle.dendene@polytechnique.edu <span aria-hidden="true">↗</span></a></section>
   {{ else }}
-    <header class="page-heading"><p class="eyebrow">{{ if $isOrigins }}{{ .Params.eyebrow }}{{ else }}{{ $displayName }}{{ end }}</p><h1>{{ .Title }}</h1>{{ if $isExperience }}<p class="page-intro">{{ $ui.experience_intro }}</p>{{ else if $isResearch }}<p class="page-intro">{{ $ui.research_intro }}</p>{{ else if $isOrigins }}<p class="page-intro">{{ .Params.intro }}</p>{{ end }}</header>
+    <header class="page-heading"><p class="eyebrow">{{ if or $isOrigins $isSongs }}{{ .Params.eyebrow }}{{ else }}{{ $displayName }}{{ end }}</p><h1>{{ .Title }}</h1>{{ if $isExperience }}<p class="page-intro">{{ $ui.experience_intro }}</p>{{ else if $isResearch }}<p class="page-intro">{{ $ui.research_intro }}</p>{{ else if or $isOrigins $isSongs }}<p class="page-intro">{{ .Params.intro }}</p>{{ end }}</header>
     {{ if $isExperience }}
     <div class="experience-columns">
       <section aria-labelledby="work-title"><h2 id="work-title">{{ $ui.work }}</h2><ol class="timeline">{{ range $author.Params.work }}<li><p class="date">{{ (time.AsTime .date_start).Format "2006" }} — {{ with .date_end }}{{ (time.AsTime .).Format "2006" }}{{ else }}{{ $ui.current }}{{ end }}</p><h3>{{ .position }}</h3><p class="institution">{{ if .company_url }}<a href="{{ .company_url }}">{{ .company_name }}</a>{{ else }}{{ .company_name }}{{ end }}</p><div class="prose">{{ .summary | markdownify }}</div></li>{{ end }}</ol></section>
@@ -104,6 +105,8 @@
     {{ partial "academic/research.html" . }}
     {{ else if $isOrigins }}
     <article class="heritage-page">{{ .Content }}</article>
+    {{ else if $isSongs }}
+    {{ partial "academic/songs.html" . }}
     {{ else }}
     <div class="teaching-content">{{ range .Params.sections }}<section><h2>{{ .content.title }}</h2><div class="prose">{{ .content.text | markdownify }}</div></section>{{ end }}</div>
     {{ end }}

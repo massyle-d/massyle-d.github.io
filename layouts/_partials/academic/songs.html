@@ -1,0 +1,26 @@
+<div class="songs-page">
+  <div class="songs-introduction">
+    <p class="songs-byline">Transcription et traduction française : <strong>Massyle DENDENE</strong></p>
+    <p>Ces textes reflètent mon écoute et mes choix de traduction. Les passages marqués d’un <span class="transcription-doubt" aria-hidden="true">?</span> correspondent à mes hésitations de transcription et restent à vérifier.</p>
+    <p><a href="https://fr.wikipedia.org/wiki/Idir">Découvrir Idir sur Wikipédia <span aria-hidden="true">↗</span></a></p>
+    <nav class="songs-index" aria-label="Choisir une chanson">{{ range site.Data.kabyle_songs }}<a href="#{{ .id }}"><span lang="kab">{{ .title }}</span><span class="song-index-subtitle">{{ .subtitle }}</span><span aria-hidden="true">↓</span></a>{{ end }}</nav>
+  </div>
+  {{ range site.Data.kabyle_songs }}
+  <article class="song" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
+    <header class="song-header">
+      <div><p class="eyebrow">{{ len .stanzas }} strophes · {{ mul (len .stanzas) 4 }} vers</p><h2 id="{{ .id }}-title"><span lang="kab">{{ .title }}</span><span class="song-subtitle">{{ .subtitle }}</span></h2>{{ if .artist }}<p class="song-artist"><a href="{{ .artist_url }}">{{ .artist }}</a></p>{{ end }}</div>
+      <a class="button song-listen" href="{{ .youtube }}">Écouter sur YouTube <span aria-hidden="true">↗</span></a>
+    </header>
+    <div class="song-column-headings" aria-hidden="true"><span>Kabyle · Transcription</span><span>Français · Traduction</span></div>
+    {{ range $index, $stanza := .stanzas }}
+    <section class="song-strophe" aria-label="Strophe {{ add $index 1 }}">
+      <p class="song-strophe-label" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</p>
+      <ol class="song-verses" start="{{ (index $stanza 0).number }}">
+        {{ range $stanza }}<li><div class="lyric-pair"><p class="lyric-original" lang="kab">{{ .kabyle }}{{ if .doubt }}<sup class="transcription-doubt"><span aria-hidden="true">?</span><span class="song-sr-only"> — transcription à vérifier</span></sup>{{ end }}</p><p class="lyric-translation" lang="fr">{{ .french }}</p></div></li>{{ end }}
+      </ol>
+    </section>
+    {{ end }}
+  </article>
+  {{ end }}
+  <a class="text-link songs-back" href="{{ "origines/" | relLangURL }}#chansons-kabyles">← Retour à mes racines</a>
+</div>

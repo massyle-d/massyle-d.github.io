@@ -35,4 +35,10 @@ Les sources antiques distinguent deux grands ensembles numides : les **Massyles 
 
 Pour moi, ce prénom est une manière de porter un peu de cette histoire nord-africaine. Avec la langue kabyle, il donne à cette page son fil conducteur : des racines culturelles vivantes et un regard curieux sur le passé.
 
+## Chansons kabyles
+
+La musique est une autre façon de faire vivre la langue. Je partage aussi des chansons en kabyle, transcrites et traduites en français par mes soins.
+
+[Découvrir mes transcriptions et traductions →](/fr/chansons-kabyles/)
+
 [← Retour à mon parcours](/fr/experience/)
