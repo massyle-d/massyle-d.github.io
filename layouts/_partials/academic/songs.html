@@ -5,9 +5,10 @@
     <nav class="songs-index" aria-label="Choisir une chanson">{{ range site.Data.kabyle_songs }}<a href="#{{ .id }}"><span lang="kab">{{ .title }}</span><span class="song-index-subtitle">{{ .subtitle }}</span><span aria-hidden="true">↓</span></a>{{ end }}</nav>
   </div>
   {{ range site.Data.kabyle_songs }}
+  {{ $verseCount := 0 }}{{ range .stanzas }}{{ $verseCount = add $verseCount (len .) }}{{ end }}
   <article class="song" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
     <header class="song-header">
-      <div><p class="eyebrow">{{ len .stanzas }} strophes · {{ mul (len .stanzas) 4 }} vers</p><h2 id="{{ .id }}-title"><span lang="kab">{{ .title }}</span><span class="song-subtitle">{{ .subtitle }}</span></h2>{{ if .artist }}<p class="song-artist"><a href="{{ .artist_url }}">{{ .artist }}</a></p>{{ end }}</div>
+      <div><p class="eyebrow">{{ len .stanzas }} strophes · {{ $verseCount }} vers</p><h2 id="{{ .id }}-title"><span lang="kab">{{ .title }}</span><span class="song-subtitle">{{ .subtitle }}</span></h2>{{ if .artist }}<p class="song-artist"><a href="{{ .artist_url }}">{{ .artist }}</a></p>{{ end }}</div>
       <a class="button song-listen" href="{{ .youtube }}">Écouter sur YouTube <span aria-hidden="true">↗</span></a>
     </header>
     <div class="song-column-headings" aria-hidden="true"><span>Kabyle · Transcription</span><span>Français · Traduction</span></div>
