@@ -1,0 +1,7 @@
+{{- if .french_parts -}}
+  {{- range .french_parts -}}
+    {{- if .url -}}<a href="{{ .url }}">{{ .text }}</a>{{- else -}}{{ .text }}{{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- .french -}}
+{{- end -}}

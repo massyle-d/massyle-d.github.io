@@ -512,5 +512,419 @@
         }
       ]
     ]
+  },
+  {
+    "id": "pouvoir-assassin",
+    "title": "Pouvoir assassin",
+    "subtitle": "Pouvoir assassin",
+    "title_lang": "fr",
+    "artist": "Oulahlou (Uleḥlu)",
+    "artist_url": "https://fr.wikipedia.org/wiki/Oulahlou",
+    "youtube": "https://www.youtube.com/watch?v=LQk7hzhzVz4",
+    "stanzas": [
+      [
+        {
+          "number": 1,
+          "kabyle": "Terwi di « 5 Juillet », yekker uḥetwir di lḥara",
+          "french": "C’est la cohue au stade du 5-Juillet, l’agitation est à son comble.",
+          "doubt": true,
+          "french_parts": [
+            {
+              "text": "C’est la cohue au stade du "
+            },
+            {
+              "text": "5-Juillet",
+              "url": "https://fr.wikipedia.org/wiki/Stade_du_5-Juillet-1962"
+            },
+            {
+              "text": ", l’agitation est à son comble."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "kabyle": "D la finale n la Coupe d’Algérie",
+          "french": "C’est la finale de la Coupe d’Algérie.",
+          "doubt": false
+        },
+        {
+          "number": 3,
+          "kabyle": "Aɛraben d la JSK",
+          "french": "Les Arabes face à la JSK.",
+          "doubt": true,
+          "french_parts": [
+            {
+              "text": "Les Arabes face à la "
+            },
+            {
+              "text": "JSK",
+              "url": "https://fr.wikipedia.org/wiki/Jeunesse_sportive_de_Kabylie"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "number": 4,
+          "kabyle": "Mi d-kecmen « les Canaris », widak i ɣ-yesdukkulen",
+          "french": "Lorsque les Canaris sont entrés, eux qui nous rassemblent,",
+          "doubt": false
+        },
+        {
+          "number": 5,
+          "kabyle": "Nettṣuɣu : « Anwa wigi ? D Imaziɣen ! »",
+          "french": "nous criions : « Qui sont-ils ? Ce sont des Amazighs ! »",
+          "doubt": false
+        },
+        {
+          "number": 6,
+          "kabyle": "Imi d-yuli Pinochet, bɣiɣ ad d-iniɣ Bumedyen",
+          "french": "Quand Pinochet s’est levé — je voulais dire Boumédiène —,",
+          "doubt": false,
+          "french_parts": [
+            {
+              "text": "Quand Pinochet s’est levé — je voulais dire "
+            },
+            {
+              "text": "Boumédiène",
+              "url": "https://fr.wikipedia.org/wiki/Houari_Boum%C3%A9di%C3%A8ne"
+            },
+            {
+              "text": " —,"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "kabyle": "Le stade akk yettɣenni, smekti-iyi-d amek akken",
+          "french": "tout le stade chantait. Rappelle-moi donc ce qu’il chantait !",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 8,
+          "kabyle": "20 n Yebrir n 80, mi d-neṭṭerḍeq am lbumba",
+          "french": "Le 20 avril 1980, quand nous avons éclaté comme une bombe,",
+          "doubt": false,
+          "french_parts": [
+            {
+              "text": "Le "
+            },
+            {
+              "text": "20 avril 1980",
+              "url": "https://fr.wikipedia.org/wiki/Printemps_berb%C3%A8re"
+            },
+            {
+              "text": ", quand nous avons éclaté comme une bombe,"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "kabyle": "Kkrent tmesbaniyin, negureɛ-d : d ayen, neɛya",
+          "french": "les manifestations ont commencé : nous en avions assez de crier.",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 10,
+          "kabyle": "Ceyyɛen-d ar tseddawiyin n Wad Ɛissi ass-mi terɣa",
+          "french": "Ils ont envoyé des forces dans les universités, à Oued Aïssi en flammes.",
+          "doubt": true,
+          "french_parts": [
+            {
+              "text": "Ils ont envoyé des forces dans les universités, à "
+            },
+            {
+              "text": "Oued Aïssi",
+              "url": "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tizi_Ouzou"
+            },
+            {
+              "text": " en flammes."
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "kabyle": "Acḥal d ilemẓa i wwin ɣer Lambaz d Berwaɣiya",
+          "french": "Combien de jeunes ont été emmenés à Lambèse et Berrouaghia !",
+          "doubt": false,
+          "french_parts": [
+            {
+              "text": "Combien de jeunes ont été emmenés à Lambèse et "
+            },
+            {
+              "text": "Berrouaghia",
+              "url": "https://fr.wikipedia.org/wiki/Prison_de_Berrouaghia"
+            },
+            {
+              "text": " !"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "kabyle": "Ceyyɛen-d ar tseddawiyin n Wad Ɛissi d Ḥesnawa",
+          "french": "Ils sont intervenus dans les universités d’Oued Aïssi et de Hasnaoua.",
+          "doubt": true,
+          "french_parts": [
+            {
+              "text": "Ils sont intervenus dans les universités d’"
+            },
+            {
+              "text": "Oued Aïssi",
+              "url": "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tizi_Ouzou"
+            },
+            {
+              "text": " et de "
+            },
+            {
+              "text": "Hasnaoua",
+              "url": "https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Tizi_Ouzou"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "kabyle": "Acḥal d ilemẓa i wwin ɣer Lambaz d Berwaɣiya",
+          "french": "Combien de jeunes ont été conduits à Lambèse et Berrouaghia !",
+          "doubt": false,
+          "french_parts": [
+            {
+              "text": "Combien de jeunes ont été conduits à Lambèse et "
+            },
+            {
+              "text": "Berrouaghia",
+              "url": "https://fr.wikipedia.org/wiki/Prison_de_Berrouaghia"
+            },
+            {
+              "text": " !"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "kabyle": "Ɛedmen ula d tiqcicin, amek ur asen-d-qqareɣ ara",
+          "french": "Ils ont même emmené des jeunes filles ; comment ne pas les dénoncer ?",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 15,
+          "kabyle": "Yefsex yiṭij deg unebdu, yeɣli-d lxuf d lweswas",
+          "french": "Le soleil s’est éclipsé en plein été, la peur et l’angoisse se sont abattues.",
+          "doubt": false
+        },
+        {
+          "number": 16,
+          "kabyle": "Ass-nni mi d-isuḍ waḍu, ass-nni mi yeɣli usalas",
+          "french": "Le jour où le vent s’est levé, le jour où le pilier s’est effondré.",
+          "doubt": false
+        },
+        {
+          "number": 17,
+          "kabyle": "Leḥzen, ṭṭlam, l’angoisse",
+          "french": "La tristesse, les ténèbres, l’angoisse.",
+          "doubt": false
+        },
+        {
+          "number": 18,
+          "kabyle": "Ass-nni mi yebda uslilew, ass-nni mi d-ilul Lwennas",
+          "french": "Le jour où les youyous ont commencé, le jour où Lounès est né.",
+          "doubt": true,
+          "french_parts": [
+            {
+              "text": "Le jour où les youyous ont commencé, le jour où "
+            },
+            {
+              "text": "Lounès",
+              "url": "https://fr.wikipedia.org/wiki/Loun%C3%A8s_Matoub"
+            },
+            {
+              "text": " est né."
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "number": 19,
+          "kabyle": "Nurag-d ar iberdan, ad as-tiniḍ nemsefham",
+          "french": "Nous sommes sortis manifester dans les rues, comme si nous nous étions donné le mot.",
+          "doubt": false
+        },
+        {
+          "number": 20,
+          "kabyle": "Faqen ula d igerdan : d la SM i t-yenɣan",
+          "french": "Même les enfants ont compris : « C’est la Sécurité militaire qui l’a tué. »",
+          "doubt": true
+        },
+        {
+          "number": 21,
+          "kabyle": "Ma yella win i ken-id-yesteqsan, init-as d Uleḥlu i d-yecnan",
+          "french": "Si quelqu’un vous le demande, dites-lui qu’Oulahlou l’a chanté.",
+          "doubt": false
+        },
+        {
+          "number": 22,
+          "kabyle": "Ma yella win i ken-id-yesteqsan, ccah, d nekk i d-yecnan",
+          "french": "Si quelqu’un vous le demande : « Eh bien oui, c’est moi qui l’ai chanté ! »",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 23,
+          "kabyle": "A ssellaḥ n At Dwala, ḥerzet tarwiḥt n Mumuḥ",
+          "french": "Ô saints d’Aït Douala, veillez sur l’âme de Moumouh !",
+          "doubt": false,
+          "french_parts": [
+            {
+              "text": "Ô saints d’Aït Douala, veillez sur l’âme de "
+            },
+            {
+              "text": "Moumouh",
+              "url": "https://fr.wikipedia.org/wiki/Printemps_noir_(Kabylie)#Chronologie"
+            },
+            {
+              "text": " !"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "kabyle": "Fell-as i tekker lgirra, i yeɣlin acḥal n rruḥ",
+          "french": "Pour lui, la révolte s’est soulevée ; combien de vies sont tombées !",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 25,
+          "kabyle": "Nenna-d : basta leḥqara deg tmurt n Leqbayel",
+          "french": "Nous avons dit : « Assez de mépris en terre kabyle ! »",
+          "doubt": false
+        },
+        {
+          "number": 26,
+          "kabyle": "Jemɛet iqejjawen-nwen, au moins ɛellet-asen snasel",
+          "french": "Rassemblez vos chiens ; au moins, attachez-les avec des chaînes.",
+          "doubt": false
+        },
+        {
+          "number": 27,
+          "kabyle": "Walit anida ara wten, nekkni ur nennum ara ddel",
+          "french": "Voyez où ils frapperont ; nous n’avons jamais accepté l’humiliation.",
+          "doubt": true
+        },
+        {
+          "number": 28,
+          "kabyle": "Azul i wid yemmuten, ɣef nnif d tlelli d asfel",
+          "french": "Hommage à ceux qui sont morts, sacrifiés pour l’honneur et la liberté.",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 29,
+          "kabyle": "Ma d kečč, a Pokémon,",
+          "french": "Quant à toi, « Pokémon »,",
+          "doubt": false
+        },
+        {
+          "number": 30,
+          "kabyle": "Iseɛukkzen ɣef lbaṭel",
+          "french": "toi qui t’appuies sur l’injustice,",
+          "doubt": true
+        },
+        {
+          "number": 31,
+          "kabyle": "Tsemḥeḍ i wid izellun",
+          "french": "tu pardonnes à ceux qui égorgent,",
+          "doubt": false
+        },
+        {
+          "number": 32,
+          "kabyle": "Tneqqeḍ di Leqbayel",
+          "french": "mais tu tues les Kabyles.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 33,
+          "kabyle": "D acu ur fhimeɣ ara, ma yella wa ara aɣ-d-isfehmen",
+          "french": "Voici ce que je ne comprends pas : quelqu’un saurait-il nous l’expliquer ?",
+          "doubt": false
+        },
+        {
+          "number": 34,
+          "kabyle": "Izmawen i d-rebba tsedda, skiɛwiwen d wuccanen",
+          "french": "Comment des lions élevés par une lionne peuvent-ils hurler avec des chacals ?",
+          "doubt": false
+        },
+        {
+          "number": 35,
+          "kabyle": "Afilozof n ṛṛunda yuɣal yettsarfiq-asen",
+          "french": "Le « philosophe de la ronde » s’est mis à les applaudir.",
+          "doubt": true
+        },
+        {
+          "number": 36,
+          "kabyle": "Zaɛim-nneɣ yeɛya, yesmaɛciq d yinselmen",
+          "french": "Notre dirigeant s’épuise à courtiser les islamistes.",
+          "doubt": true
+        }
+      ],
+      [
+        {
+          "number": 37,
+          "kabyle": "Ṭbib imexlal yemxel, neɣ seččen-as iḥeckulen",
+          "french": "Le médecin des fous est devenu fou, ou quelqu’un lui a jeté un sort.",
+          "doubt": false
+        },
+        {
+          "number": 38,
+          "kabyle": "Imi t-walaɣ di Surya, yettẓalla d ibeɛtiyen",
+          "french": "Car je l’ai vu en Syrie prier avec les baathistes.",
+          "doubt": false
+        }
+      ],
+      [
+        {
+          "number": 39,
+          "kabyle": "Barkat, ur tettrebbim-t ara : ɣef anwa i d-tettkellixem ?",
+          "french": "Assez de comédie ! De qui vous moquez-vous donc ?",
+          "doubt": true
+        },
+        {
+          "number": 40,
+          "kabyle": "Suɣ-d, a Lwennas, seg uẓekka, ala kečč i ɣ-d-itteqden",
+          "french": "Crie depuis ta tombe, Lounès : tu es le seul à pouvoir nous guider.",
+          "doubt": true,
+          "french_parts": [
+            {
+              "text": "Crie depuis ta tombe, "
+            },
+            {
+              "text": "Lounès",
+              "url": "https://fr.wikipedia.org/wiki/Loun%C3%A8s_Matoub"
+            },
+            {
+              "text": " : tu es le seul à pouvoir nous guider."
+            }
+          ]
+        }
+      ]
+    ]
   }
 ]

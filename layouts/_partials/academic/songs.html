@@ -1,14 +1,14 @@
 <div class="songs-page">
   <div class="songs-introduction">
     <p class="songs-byline">Transcription et traduction française : <strong>Massyle DENDENE</strong></p>
-    <p><a href="https://fr.wikipedia.org/wiki/Idir">Découvrir Idir sur Wikipédia <span aria-hidden="true">↗</span></a></p>
-    <nav class="songs-index" aria-label="Choisir une chanson">{{ range site.Data.kabyle_songs }}<a href="#{{ .id }}"><span lang="kab">{{ .title }}</span><span class="song-index-subtitle">{{ .subtitle }}</span><span aria-hidden="true">↓</span></a>{{ end }}</nav>
+    <p>Découvrir les artistes sur Wikipédia : {{ $artistURLs := slice }}{{ range site.Data.kabyle_songs }}{{ if and .artist_url (not (in $artistURLs .artist_url)) }}{{ if len $artistURLs }} · {{ end }}<a href="{{ .artist_url }}">{{ .artist }}</a>{{ $artistURLs = $artistURLs | append .artist_url }}{{ end }}{{ end }}</p>
+    <nav class="songs-index" aria-label="Choisir une chanson">{{ range site.Data.kabyle_songs }}<a href="#{{ .id }}"><span lang="{{ .title_lang | default "kab" }}">{{ .title }}</span>{{ if ne .title .subtitle }}<span class="song-index-subtitle">{{ .subtitle }}</span>{{ end }}<span aria-hidden="true">↓</span></a>{{ end }}</nav>
   </div>
   {{ range site.Data.kabyle_songs }}
   {{ $verseCount := 0 }}{{ range .stanzas }}{{ $verseCount = add $verseCount (len .) }}{{ end }}
   <article class="song" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
     <header class="song-header">
-      <div><p class="eyebrow">{{ len .stanzas }} strophes · {{ $verseCount }} vers</p><h2 id="{{ .id }}-title"><span lang="kab">{{ .title }}</span><span class="song-subtitle">{{ .subtitle }}</span></h2>{{ if .artist }}<p class="song-artist"><a href="{{ .artist_url }}">{{ .artist }}</a></p>{{ end }}</div>
+      <div><p class="eyebrow">{{ len .stanzas }} strophes · {{ $verseCount }} vers</p><h2 id="{{ .id }}-title"><span lang="{{ .title_lang | default "kab" }}">{{ .title }}</span>{{ if ne .title .subtitle }}<span class="song-subtitle">{{ .subtitle }}</span>{{ end }}</h2>{{ if .artist }}<p class="song-artist"><a href="{{ .artist_url }}">{{ .artist }}</a></p>{{ end }}</div>
       <a class="button song-listen" href="{{ .youtube }}">Écouter sur YouTube <span aria-hidden="true">↗</span></a>
     </header>
     <div class="song-column-headings" aria-hidden="true"><span>Kabyle · Transcription</span><span>Français · Traduction</span></div>
@@ -16,7 +16,7 @@
     <section class="song-strophe" aria-label="Strophe {{ add $index 1 }}">
       <p class="song-strophe-label" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</p>
       <ol class="song-verses" start="{{ (index $stanza 0).number }}">
-        {{ range $stanza }}<li><div class="lyric-pair"><p class="lyric-original" lang="kab">{{ .kabyle }}</p><p class="lyric-translation" lang="fr">{{ .french }}</p></div></li>{{ end }}
+        {{ range $stanza }}<li><div class="lyric-pair"><p class="lyric-original" lang="kab">{{ .kabyle }}</p><p class="lyric-translation" lang="fr">{{ partial "academic/song-translation.html" . }}</p></div></li>{{ end }}
       </ol>
     </section>
     {{ end }}

@@ -18,6 +18,8 @@ The English and French home, research, experience and teaching pages use the `ac
 
 ## Edit presentation
 
+Song translations may include `french_parts`, a sequence of plain `text` segments with an optional `url`, rendered by `academic/song-translation.html`. Keep the complete, unchanged translation in `french`; concatenating the segment texts must reproduce it exactly. This supports contextual Wikipedia links without raw HTML in the lyrics. Artist links at the top are collected from the songs, so adding a performer automatically updates the introduction links. Identical title/subtitle values display once.
+
 The heritage photo carousel uses `data/heritage_photos.yaml` and the shared `heritage-gallery` shortcode in both languages. Its five photos are resized WebP copies in `assets/images/heritage-photos/`, oriented correctly with EXIF metadata removed; original files are unchanged. Hugo builds smaller responsive versions. Labels are in `data/heritage.yaml`. The carousel supports native touch scrolling, buttons, photo indicators and arrow/Home/End keys; it does not autoplay. `assets/js/heritage-gallery.js` updates the counter and respects reduced motion. Without JavaScript, photos remain horizontally scrollable.
 
 `layouts/_partials/academic/page.html` contains the shared page structure. `assets/css/academic.css` contains the responsive styles and color palette. The small, dependency-free `assets/js/chiz.js` reveals a cheese surprise when visitors type `CHIZ` outside editable fields, or visit a page with `#chiz`. Escape dismisses it; otherwise it closes automatically. The cheese icons live in `static/favicon.ico`, `static/favicon-32x32.png` and `static/apple-touch-icon.png`.
