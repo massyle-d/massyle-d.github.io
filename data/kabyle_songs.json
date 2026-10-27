@@ -389,9 +389,7 @@
           "kabyle": "I kunwi, a wid meẓẓiyen",
           "french": "pour vous, les plus jeunes.",
           "doubt": false
-        }
-      ],
-      [
+        },
         {
           "number": 5,
           "kabyle": "Aql-aɣ gar-awen, rrwaḥ ula anda",
@@ -423,9 +421,7 @@
           "kabyle": "Ad asen-ddmen imukan",
           "french": "pour prendre leur place.",
           "doubt": false
-        }
-      ],
-      [
+        },
         {
           "number": 10,
           "kabyle": "Ɣurwat win iberrun i ṭbel deg waman",
@@ -463,9 +459,7 @@
           "kabyle": "Yerna mačči d imcumen",
           "french": "et nous ne sommes pas des méchants.",
           "doubt": false
-        }
-      ],
-      [
+        },
         {
           "number": 16,
           "kabyle": "Nwala medden, nunag timura",
@@ -477,7 +471,9 @@
           "kabyle": "S kra n win yessnen, d acu i yufa",
           "french": "Chacun selon ce qu’il sait et ce qu’il a découvert.",
           "doubt": true
-        },
+        }
+      ],
+      [
         {
           "number": 18,
           "kabyle": "S kra n win yessnen, inuda, iwala",
@@ -489,9 +485,7 @@
           "kabyle": "Yufa abrid yiwen",
           "french": "et n’a trouvé qu’un seul chemin :",
           "doubt": false
-        }
-      ],
-      [
+        },
         {
           "number": 20,
           "kabyle": "Ḥaca taguni ala",
