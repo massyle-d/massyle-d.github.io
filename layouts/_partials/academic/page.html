@@ -46,6 +46,7 @@
   {{ if $isSongs }}<meta name="twitter:title" content="{{ .Params.seo_title | default .Title }}"><meta name="twitter:description" content="{{ $description }}">{{ partial "academic/song-metadata.html" . }}{{ end }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   <script src="{{ $chiz.RelPermalink }}" integrity="{{ $chiz.Data.Integrity }}" defer></script>
+  {{ partial "external-links.html" . }}
   {{ if $isOrigins }}{{ $heritage := resources.Get "js/heritage.js" | minify | fingerprint }}<script src="{{ $heritage.RelPermalink }}" integrity="{{ $heritage.Data.Integrity }}" defer></script>{{ end }}
   {{ if $isOrigins }}{{ $gallery := resources.Get "js/heritage-gallery.js" | minify | fingerprint }}<script src="{{ $gallery.RelPermalink }}" integrity="{{ $gallery.Data.Integrity }}" defer></script>{{ end }}
   {{ partial "blox-analytics/index" . }}

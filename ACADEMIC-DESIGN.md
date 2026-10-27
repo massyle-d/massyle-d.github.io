@@ -18,6 +18,8 @@ The English and French home, research, experience and teaching pages use the `ac
 
 ## Edit presentation
 
+`assets/js/external-links.js` opens external HTTP(S) links in a new tab with `noopener noreferrer`, preserving existing `rel` values. The shared `external-links.html` partial loads it on academic pages and through the theme's head hook on other pages. Relative links, same-site absolute URLs, anchors, local downloads and mail links keep their existing behavior. The click handler also covers dynamically inserted links. The canonical site origin and current preview origin are both considered internal.
+
 Song translations may include `french_parts`, a sequence of plain `text` segments with an optional `url`, rendered by `academic/song-translation.html`. Keep the complete, unchanged translation in `french`; concatenating the segment texts must reproduce it exactly. This supports contextual Wikipedia links without raw HTML in the lyrics. Artist links at the top are collected from the songs, so adding a performer automatically updates the introduction links. Identical title/subtitle values display once.
 
 The heritage photo carousel uses `data/heritage_photos.yaml` and the shared `heritage-gallery` shortcode in both languages. Its five photos are resized WebP copies in `assets/images/heritage-photos/`, oriented correctly with EXIF metadata removed; original files are unchanged. Hugo builds smaller responsive versions. Labels are in `data/heritage.yaml`. The carousel supports native touch scrolling, buttons, photo indicators and arrow/Home/End keys; it does not autoplay. `assets/js/heritage-gallery.js` updates the counter and respects reduced motion. Without JavaScript, photos remain horizontally scrollable.
